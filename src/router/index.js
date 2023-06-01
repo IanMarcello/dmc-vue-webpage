@@ -12,42 +12,42 @@ const router = createRouter({
     {
       path: '/herosection',
       name: 'herosection',
-      component: () => import('@/views/User/HeroSection/HeroView.vue')
+      component: () => import('@/views/HeroSection/HeroView.vue')
     },
     {
       path: '/dante',
       name: 'dante',
-      component: () => import('@/views/User/HeroSection/Characters/DanteView.vue')
+      component: () => import('@/views/HeroSection/Characters/DanteView.vue')
     },
     {
       path: '/nero',
       name: 'nero',
-      component: () => import('@/views/User/HeroSection/Characters/NeroView.vue')
+      component: () => import('@/views/HeroSection/Characters/NeroView.vue')
     },
     {
       path: '/vergil',
       name: 'vergil',
-      component: () => import('@/views/User/HeroSection/Characters/VergilView.vue')
+      component: () => import('@/views/HeroSection/Characters/VergilView.vue')
     },
     {
       path: '/v',
       name: 'v',
-      component: () => import('@/views/User/HeroSection/Characters/VView.vue')
+      component: () => import('@/views/HeroSection/Characters/VView.vue')
     },
     {
       path: '/trish',
       name: 'trish',
-      component: () => import('@/views/User/HeroSection/Characters/TrishView.vue')
+      component: () => import('@/views/HeroSection/Characters/TrishView.vue')
     },
     {
       path: '/lady',
       name: 'lady',
-      component: () => import('@/views/User/HeroSection/Characters/LadyView.vue')
+      component: () => import('@/views/HeroSection/Characters/LadyView.vue')
     },
     {
       path: '/nico',
       name: 'nico',
-      component: () => import('@/views/User/HeroSection/Characters/NicoView.vue')
+      component: () => import('@/views/HeroSection/Characters/NicoView.vue')
     }
   ]
 })
