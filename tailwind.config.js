@@ -1,21 +1,24 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
       fontFamily: {
-        dmc: ["DMC5Font"],
-        'montserratalternates-thin': ["MontserratAlternates-Thin"],
-        'montserratalternates-extralight': ["MontserratAlternates-ExtraLight"],
-        'montserratalternates-light': ["MontserratAlternates-Light"],
-        'montserratalternates-regular': ["MontserratAlternates-Regular"],
-        'montserratalternates-medium': ["MontserratAlternates-Medium"],
-        'montserratalternates-semibold': ["MontserratAlternates-SemiBold"],
-        'montserratalternates-bold': ["MontserratAlternates-Bold"],
-        'montserratalternates-extrabold': ["MontserratAlternates-ExtraBold"],
-        'montserratalternates-black': ["MontserratAlternates-Black"],
-      },
+        dmc: ['DMC5Font']
+        // 'montserratalternates-thin': ['MontserratAlternates-Thin', 'sans-serif'],
+        // 'montserratalternates-extralight': ['MontserratAlternates-ExtraLight', 'sans-serif'],
+        // 'montserratalternates-light': ['MontserratAlternates-Light', 'sans-serif'],
+        // 'montserratalternates-regular': ['MontserratAlternates-Regular', 'sans-serif'],
+        // 'montserratalternates-medium': ['MontserratAlternates-Medium', 'sans-serif'],
+        // 'montserratalternates-semibold': ['MontserratAlternates-SemiBold', 'sans-serif'],
+        // 'montserratalternates-bold': ['MontserratAlternates-Bold', 'sans-serif'],
+        // 'montserratalternates-extrabold': ['MontserratAlternates-ExtraBold', 'sans-serif'],
+        // 'montserratalternates-black': ['MontserratAlternates-Black', 'sans-serif']
+      }
     },
+    screens: {
+      '3xl': '1600px'
+    }
   },
-  plugins: [],
+  plugins: []
 }
