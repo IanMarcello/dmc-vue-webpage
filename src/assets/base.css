@@ -43,6 +43,62 @@ img, button {
   background-color: #4338ca;
 }
 
+@font-face {
+  font-family: 'DMC5Font';
+  src: url('fonts/Custom_Fonts/DMC5/DMC5Font.woff') format('woff');
+       font-weight: 100;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'PS_Regular';
+  src: url('fonts/Custom_Fonts/PlayStation/PS_Regular.woff') format('woff');
+       font-weight: 100;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steam';
+  src: url('fonts/Custom_Fonts/Steam/Steam.woff') format('woff');
+       font-weight: 100;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steam_Medium';
+  src: url('fonts/Custom_Fonts/Steam/Steam_Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steam_Bold';
+  src: url('fonts/Custom_Fonts/Steam/Steam_Bold.woff') format('woff');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Steam_Black';
+  src: url('fonts/Custom_Fonts/Steam/Steam_Black.woff') format('woff');
+       font-weight: 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'X360';
+  src: url('fonts/Custom_Fonts/XBOX/X360.woff') format('woff');
+       font-weight: 100;
+       font-display: swap;
+       font-style: normal;
+}
+
 /* Montserrat Alternates Font */
 /* @font-face {
   font-family: 'MontserratAlternates-Thin';

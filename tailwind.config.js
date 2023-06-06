@@ -4,7 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        dmc: ['DMC5Font']
+        dmc: ['DMC5Font', 'sans-serif'],
+        xbox: ['X360', 'sans-serif'],
+        steam: ['Steam', 'sans-serif'],
+        steam_medium: ['Steam_Medium', 'sans-serif'],
+        steam_bold: ['Steam_Bold', 'sans-serif'],
+        steam_black: ['Steam_Black', 'sans-serif'],
+        playstation_regular: ['PS_Regular', 'sans-serif']
         // 'montserratalternates-thin': ['MontserratAlternates-Thin', 'sans-serif'],
         // 'montserratalternates-extralight': ['MontserratAlternates-ExtraLight', 'sans-serif'],
         // 'montserratalternates-light': ['MontserratAlternates-Light', 'sans-serif'],
