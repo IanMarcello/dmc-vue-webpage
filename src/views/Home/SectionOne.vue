@@ -5,10 +5,10 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
 </script>
 
 <template>
-  <section id="">
+  <section>
     <div class="w-full bg-[#16191f]">
       <div class="relative flex flex-col h-full px-52">
-        <div class="">
+        <div>
           <img
             src="@/assets/images/dante.png"
             class="pt-10 hidden 3xl:inline-block h-full absolute right-48"
