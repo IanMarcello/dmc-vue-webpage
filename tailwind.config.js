@@ -20,9 +20,29 @@ module.exports = {
         // 'montserratalternates-bold': ['MontserratAlternates-Bold', 'sans-serif'],
         // 'montserratalternates-extrabold': ['MontserratAlternates-ExtraBold', 'sans-serif'],
         // 'montserratalternates-black': ['MontserratAlternates-Black', 'sans-serif']
+      },
+      colors: {
+        dark: {
+          50: '#0081c6',
+          100: '#0073b0',
+          200: '#00649a',
+          300: '#005684',
+          400: '#00486e',
+          450: '#003049',
+          500: '#003958',
+          600: '#002b42',
+          700: '#001d2c',
+          800: '#000e16',
+          900: '#000000'
+        }
       }
     },
     screens: {
+      // 'sm': '640px',
+      // 'md': '768px',
+      // 'lg': '1024px',
+      // 'xl': '1280px',
+      // '2xl': '1536px',
       '3xl': '1600px'
     }
   },
