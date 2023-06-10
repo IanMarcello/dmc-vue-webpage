@@ -1,10 +1,10 @@
 <template>
   <section>
-    <div class="bg-[#111317]">
-      <div class="relative py-20">
+    <div class="w-full 4xl:flex 4xl:justify-center bg-[#111317]">
+      <div class="relative 4xl:w-[2000px] py-20">
         <div>
           <img
-            src="@/assets/images/cavaliere.png"
+            src="@/assets/images/arms/cavaliere.png"
             class="hidden 3xl:inline-block absolute -top-8 right-32"
             alt="Cavaliere"
           />
@@ -38,7 +38,7 @@
               </div>
             </div>
           </div>
-          <div class="border h-[70vh] w-[55vh] hidden 3xl:inline-block"></div>
+          <div class="border h-[659px] w-[518px] hidden 3xl:inline-block"></div>
         </div>
       </div>
     </div>

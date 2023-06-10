@@ -6,11 +6,11 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
 
 <template>
   <section>
-    <div class="w-full bg-[#16191f]">
-      <div class="relative flex flex-col h-full px-52">
+    <div class="w-full 4xl:flex 4xl:justify-center bg-[#16191f]">
+      <div class="relative 4xl:w-[2000px] flex flex-col h-full px-52">
         <div>
           <img
-            src="@/assets/images/dante.png"
+            src="@/assets/images/characters/dante/dante_home.png"
             class="pt-10 hidden 3xl:inline-block h-full absolute right-48"
             alt="Dante"
           />

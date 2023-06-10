@@ -23,28 +23,16 @@ const updateCoordinates = (e) => {
 </script>
 
 <template>
-  <div id="parallax" class="w-full h-screen relative bg-center bg-no-repeat" @mousemove="updateCoordinates" :style="{ 'background-position': position }">
-    <h1>NOT FOUND</h1>
+  <div id="parallax" class="w-full h-screen flex justify-center items-center relative bg-center bg-no-repeat" @mousemove="updateCoordinates" :style="{ 'background-position': position }">
+    <span class="uppercase text-white opacity-70 absolute text-7xl" >NOT FOUND</span>
   </div>
 </template>
 
 <style>
-
 #parallax {
-  background-image: url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-3.png),
-    url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-2.png),
-    url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-1.png);
+  background-image: url(@/assets/images/404/depth-3.png),
+    url(@/assets/images/404/depth-2.png),
+    url(@/assets/images/404/depth-1.png);
   background-position: 50% 50%;
-}
-
-h1 {
-  position: absolute;
-  top: 47%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  text-transform: uppercase;
-  opacity: 0.7;
-  font-size: 70px;
 }
 </style>
