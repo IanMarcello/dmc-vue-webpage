@@ -1,6 +1,8 @@
 <template>
   <div>
-    <button class="btn-gradient relative btn from-left hover:tracking-wider text-xl px-8 py-2 z-10">PRE-ORDER</button>
+    <a href="#">
+      <button class="btn-gradient relative btn from-left hover:tracking-wider text-xl px-8 py-2 z-10">PRE-ORDER</button>
+    </a>
   </div>
 </template>
 
