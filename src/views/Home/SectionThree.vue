@@ -26,16 +26,14 @@
               hands of Devil Hunters with demon blood in <br class="hidden 3xl:inline-block" />
               their veins.
             </div>
-            <div
-              class="mt-8 flex justify-center 3xl:justify-start text-center text-base font-bold"
-            >
-              <div
-                class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-[#282a34] hover:tracking-widest"
-              >
-                <a href="#" target="_blank"
-                  >MORE</a
+            <div class="mt-8 flex justify-center 3xl:justify-start text-center text-base font-bold">
+              <a href="#" target="_blank">
+                <div
+                  class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-[#282a34] hover:tracking-widest"
                 >
-              </div>
+                  <span>MORE</span>
+                </div></a
+              >
             </div>
           </div>
           <div class="border h-[659px] w-[518px] hidden 3xl:inline-block"></div>

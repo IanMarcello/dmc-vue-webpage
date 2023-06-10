@@ -36,18 +36,20 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
             <div
               class="mt-8 flex flex-row text-center gap-x-10 justify-center 3xl:justify-start text-base font-bold"
             >
-              <div
-                class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-[#282a34] hover:tracking-widest"
-              >
-                <a href="#">PRE-ORDER</a>
-              </div>
-              <div
-                class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-[#282a34] hover:tracking-widest"
-              >
-                <a href="https://www.youtube.com/watch?v=gFj8qt9HiZg" target="_blank"
-                  >OFFICIAL TRAILER</a
+              <a href="#">
+                <div
+                  class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-[#282a34] hover:tracking-widest"
                 >
-              </div>
+                  <span>PRE-ORDER</span>
+                </div></a
+              >
+              <a href="https://www.youtube.com/watch?v=gFj8qt9HiZg" target="_blank">
+                <div
+                  class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-[#282a34] hover:tracking-widest"
+                >
+                  <span>OFFICIAL TRAILER</span>
+                </div></a
+              >
             </div>
           </div>
         </div>
