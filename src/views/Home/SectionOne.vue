@@ -6,7 +6,7 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
 
 <template>
   <section>
-    <div class="w-full 4xl:flex 4xl:justify-center bg-[#16191f]">
+    <div class="w-full 4xl:flex 4xl:justify-center bg-theme-100">
       <div class="relative 4xl:w-[2000px] flex flex-col h-full px-52">
         <div>
           <img
@@ -18,7 +18,7 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
         <NavView />
         <div class="border w-full h-full flex p-20 flex-col justify-center items-start my-16">
           <div class="h-full w-full lg:w-1/2">
-            <div class="mt-16 text-[#cd3232] font-bold text-6xl text-center 3xl:text-start">
+            <div class="mt-16 text-theme-200 font-bold text-6xl text-center 3xl:text-start">
               Devil May Cry
             </div>
             <div class="mt-12 text-xl text-center 3xl:text-start">
@@ -38,14 +38,14 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
             >
               <a href="#">
                 <div
-                  class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-[#282a34] hover:tracking-widest"
+                  class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-theme-300 hover:tracking-widest"
                 >
                   <span>PRE-ORDER</span>
                 </div></a
               >
               <a href="https://www.youtube.com/watch?v=gFj8qt9HiZg" target="_blank">
                 <div
-                  class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-[#282a34] hover:tracking-widest"
+                  class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-theme-300 hover:tracking-widest"
                 >
                   <span>OFFICIAL TRAILER</span>
                 </div></a

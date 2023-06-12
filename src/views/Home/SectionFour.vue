@@ -1,10 +1,10 @@
 <template>
   <section>
-    <div class="w-full 4xl:flex 4xl:justify-center bg-[#16191f] py-20">
+    <div class="w-full 4xl:flex 4xl:justify-center bg-theme-100 py-20">
       <div class="4xl:w-[2000px]">
         <div class="flex flex-col justify-center items-center">
           <div id="character" class="font-bold text-5xl">Character</div>
-          <div class="border border-[#2d3035] mt-5 w-10"></div>
+          <div class="border border-theme-400 mt-5 w-10"></div>
         </div>
 
         <div class="mt-40 flex flex-wrap gap-y-20 gap-x-5 flex-row justify-between px-48">

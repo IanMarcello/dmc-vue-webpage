@@ -11,7 +11,7 @@
         </div>
         <div class="w-full flex flex-row justify-center px-20 gap-x-40">
           <div class="h-fit w-fit">
-            <div class="text-[#cd3232] font-bold text-5xl text-center 3xl:text-start">
+            <div class="text-theme-200 font-bold text-5xl text-center 3xl:text-start">
               Legendary DMC <br class="hidden 3xl:inline-block" />
               action returns!
             </div>
@@ -26,10 +26,10 @@
               hands of Devil Hunters with demon blood in <br class="hidden 3xl:inline-block" />
               their veins.
             </div>
-            <div class="mt-8 flex justify-center 3xl:justify-start text-center text-base font-bold">
+            <div class="mt-8 flex relative z-10 justify-center 3xl:justify-start text-center text-base font-bold">
               <a href="#" target="_blank">
                 <div
-                  class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-[#282a34] hover:tracking-widest"
+                  class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-theme-300 hover:tracking-widest"
                 >
                   <span>MORE</span>
                 </div></a

@@ -6,7 +6,7 @@ import MdiLinkedin from '~icons/mdi/linkedin'
 </script>
 
 <template>
-  <div class="flex relative gap-x-5 -top-[85px] -left-5 py-2 px-4 bg-[#16191f] w-fit">
+  <div class="flex relative gap-x-5 -top-[85px] -left-5 py-2 px-4 bg-theme-100 w-fit">
     <div>
       <a href="https://www.linkedin.com/in/ian-jada-51886a1a3" target="_blank" class="transition-colors hover:text-red-600"
         ><MdiLinkedin class="w-6 h-6"
