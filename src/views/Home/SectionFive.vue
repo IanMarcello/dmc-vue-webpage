@@ -11,10 +11,21 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
           <div class="border border-theme-400 mt-5 w-10"></div>
         </div>
 
-        <div class="mt-10 flex flex-row gap-x-16 justify-center items-center">
+        <div class="mt-36 flex flex-row gap-x-16 justify-center items-center">
           <div class="w-64">
+            <div class="relative w-[300px]">
+              <img
+                src="@/assets/images/characters/dante/dante_cutout.png"
+                class="absolute -left-2 top-[-3.2rem]"
+                alt="Dante"
+              />
+            </div>
             <div class="bg-theme-700 w-full h-96 p-5">
-              <div class="border w-full h-full"></div>
+              <div class="border w-full h-full">
+                <div class="group-hover:bg-red-300 w-full h-full">
+
+                </div>
+              </div>
             </div>
             <div class="text-center mt-8 text-base">
               <span>Rack up enough "Stylish" ratings to get your hands on some Gold orbs.</span>
@@ -31,6 +42,13 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
             </div>
           </div>
           <div class="w-64">
+            <div class="relative w-[350px]">
+              <img
+                src="@/assets/images/characters/nero/nero_cutout_3.png"
+                class="absolute -left-7 top-[-9.1rem]"
+                alt="Nero"
+              />
+            </div>
             <div class="bg-theme-700 w-full h-96 p-5">
               <div class="border w-full h-full"></div>
             </div>
@@ -49,6 +67,13 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
             </div>
           </div>
           <div class="w-64">
+            <div class="relative w-[275px]">
+              <img
+                src="@/assets/images/characters/v/v_cutout.png"
+                class="absolute -left-2 top-[-3.1rem]"
+                alt="V"
+              />
+            </div>
             <div class="bg-theme-700 w-full h-96 p-5">
               <div class="border w-full h-full"></div>
             </div>
