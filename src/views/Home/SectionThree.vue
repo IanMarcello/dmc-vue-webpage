@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="w-full 4xl:flex 4xl:justify-center bg-[#111317]">
+    <div class="w-full 4xl:flex 4xl:justify-center bg-theme-800">
       <div class="relative 4xl:w-[2000px] py-20">
         <div>
           <img

@@ -13,12 +13,12 @@
               <div class="card h-full flex justify-center relative items-end">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
                   <img
-                    src="@/assets/images/characters/dante/dante_potrait.jpg"
+                    src="@/assets/images/characters/dante/dante_potrait.webp"
                     class="h-full w-full object-cover"
                   />
                 </div>
                 <img src="@/assets/images/dmc_title.png" class="title" />
-                <img src="@/assets/images/characters/dante/dante.png" class="character" />
+                <img src="@/assets/images/characters/dante/dante.webp" class="character" />
               </div>
               <span class="font-dmc text-2xl">Dante</span>
             </router-link>
