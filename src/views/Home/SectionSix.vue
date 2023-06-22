@@ -2,13 +2,6 @@
 import CibPlaystation from '~icons/cib/playstation'
 import CibXbox from '~icons/cib/xbox'
 import CibSteam from '~icons/cib/steam'
-
-import { Swiper, SwiperSlide } from 'swiper/vue'
-import { Keyboard, Navigation } from 'swiper'
-import 'swiper/css'
-import 'swiper/css/navigation'
-
-const modules = [Navigation, Keyboard]
 </script>
 
 <template>
@@ -29,16 +22,14 @@ const modules = [Navigation, Keyboard]
           </div>
 
           <div class="mt-14 px-48">
-            <swiper
+            <swiper-container
               :loop="true"
-              :slidesPerView="1"
+              :slides-per-view="1"
               :spaceBetween="10"
               :navigation="true"
-              :modules="modules"
               :keyboard="{
                 enabled: true
               }"
-              class="h-full"
             >
               <swiper-slide>
                 <div class="w-full flex justify-center items-center">
@@ -110,7 +101,7 @@ const modules = [Navigation, Keyboard]
                   </div>
                 </div>
               </swiper-slide>
-            </swiper>
+            </swiper-container>
           </div>
         </div>
       </div>

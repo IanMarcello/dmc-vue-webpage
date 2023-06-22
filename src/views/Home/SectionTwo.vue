@@ -3,13 +3,6 @@ import CibPlaystation from '~icons/cib/playstation'
 import CibXbox from '~icons/cib/xbox'
 import CibSteam from '~icons/cib/steam'
 import IcOutlineAccessTime from '~icons/ic/outline-access-time'
-
-import { Swiper, SwiperSlide } from 'swiper/vue'
-import { Keyboard, Navigation } from 'swiper'
-import 'swiper/css'
-import 'swiper/css/navigation'
-
-const modules = [Navigation, Keyboard]
 </script>
 
 <template>
@@ -103,16 +96,14 @@ const modules = [Navigation, Keyboard]
         </div>
 
         <div class="mt-14 px-48">
-          <swiper
+          <swiper-container
             :loop="true"
-            :slidesPerView="3"
-            :spaceBetween="10"
+            :slides-per-view="3"
+            :space-between="10"
             :navigation="true"
-            :modules="modules"
             :keyboard="{
               enabled: true
             }"
-            class="h-full"
           >
             <swiper-slide>
               <div class="flex justify-center items-center h-fit">
@@ -351,7 +342,7 @@ const modules = [Navigation, Keyboard]
                 </div>
               </div>
             </swiper-slide>
-          </swiper>
+          </swiper-container>
         </div>
 
         <div class="flex flex-col justify-center items-center mt-14">
