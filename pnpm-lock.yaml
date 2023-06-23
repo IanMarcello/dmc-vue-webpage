@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -22,6 +22,9 @@ dependencies:
     version: 2.20.0
 
 devDependencies:
+  '@iconify-json/basil':
+    specifier: ^1.1.1
+    version: 1.1.1
   '@iconify-json/cib':
     specifier: ^1.1.4
     version: 1.1.4
@@ -362,6 +365,12 @@ packages:
 
   /@humanwhocodes/object-schema@1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify-json/basil@1.1.1:
+    resolution: {integrity: sha512-Whj9D1+nbqOE0HB0EXqUxpZB4CePD8RVDViHvTBTkuR8i9RwYudr/ob/OxcaBzwH5s99dDIl9bc2R4Py+9OxXw==}
+    dependencies:
+      '@iconify/types': 2.0.0
     dev: true
 
   /@iconify-json/cib@1.1.4:

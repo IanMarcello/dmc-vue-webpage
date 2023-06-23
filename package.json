@@ -17,6 +17,7 @@
     "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
+    "@iconify-json/basil": "^1.1.1",
     "@iconify-json/cib": "^1.1.4",
     "@iconify-json/ic": "^1.1.13",
     "@iconify-json/mdi": "^1.1.52",
