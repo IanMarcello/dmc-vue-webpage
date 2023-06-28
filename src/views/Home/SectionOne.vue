@@ -6,57 +6,57 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
 
 <template>
   <section>
-    <div class="w-full 4xl:flex 4xl:justify-center bg-theme-100">
+    <div class="4xl:flex 4xl:justify-center bg-theme-100">
       <div class="relative 4xl:w-[2000px] flex flex-col h-full px-52">
         <div>
           <img
             src="@/assets/images/characters/dante/dante_home.webp"
-            class="pt-10 hidden 3xl:inline-block h-full absolute right-48"
+            class="absolute hidden h-full pt-10 right-48 3xl:inline-block"
             alt="Dante"
           />
         </div>
         <NavView />
-        <div class="border w-full h-full flex p-20 flex-col justify-center items-start my-16">
-          <div class="h-full w-full lg:w-1/2">
-            <div class="mt-16 text-theme-200 font-bold text-6xl text-center 3xl:text-start">
-              Devil May Cry
-            </div>
-            <div class="mt-12 text-xl text-center 3xl:text-start">
-              The Devil May Cry Series boasts over 6.5 million sales
-              <br class="hidden 3xl:inline-block" />
-              of its copies as of January 2023.
-            </div>
-            <div class="mt-5 text-xl text-center 3xl:text-start">
-              The first game in this popular series to make <br class="hidden 3xl:inline-block" />
-              its debut in the current generation, bringing <br class="hidden 3xl:inline-block" />
-              stylist mayhem against fiendish foes at the <br class="hidden 3xl:inline-block" />
-              hands of Devil Hunters with demon blood in <br class="hidden 3xl:inline-block" />
-              their veins.
-            </div>
-            <div
-              class="mt-8 flex flex-row text-center gap-x-10 justify-center 3xl:justify-start text-base font-bold"
-            >
-              <a href="#">
-                <div
-                  class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-theme-300 hover:tracking-widest"
-                >
-                  <span>PRE-ORDER</span>
-                </div></a
+        <div class="flex flex-col items-start justify-center p-20 my-16 border">
+          <div>
+            <div class="3xl:mr-[48rem]">
+              <div class="mt-16 text-6xl font-bold text-center text-theme-200 3xl:text-start">
+                Devil May Cry
+              </div>
+              <div class="mt-12 text-xl text-center 3xl:text-start">
+                The Devil May Cry Series boasts over 6.5 million sales of its copies as of January
+                2023.
+              </div>
+              <div class="mt-5 text-xl text-center 3xl:text-start">
+                The first game in this popular series to make its debut in the current generation,
+                bringing stylist mayhem against fiendish foes at the hands of Devil Hunters with
+                demon blood in their veins.
+              </div>
+              <div
+                class="flex flex-row justify-center mt-8 text-base font-bold text-center gap-x-10 3xl:justify-start"
               >
-              <a href="https://www.youtube.com/watch?v=gFj8qt9HiZg" target="_blank">
-                <div
-                  class="transition-all ease-in border py-3 w-56 cursor-pointer hover:bg-theme-300 hover:tracking-widest"
+                <a href="#">
+                  <div
+                    class="w-56 py-3 transition-all ease-in border cursor-pointer hover:bg-theme-300 hover:tracking-widest"
+                  >
+                    <span>PRE-ORDER</span>
+                  </div></a
                 >
-                  <span>OFFICIAL TRAILER</span>
-                </div></a
-              >
+                <a href="https://www.youtube.com/watch?v=gFj8qt9HiZg" target="_blank">
+                  <div
+                    class="w-56 py-3 transition-all ease-in border cursor-pointer hover:bg-theme-300 hover:tracking-widest"
+                  >
+                    <span>OFFICIAL TRAILER</span>
+                  </div></a
+                >
+              </div>
             </div>
           </div>
         </div>
         <ContactView />
       </div>
     </div>
-    <div class="w-full py-7 z-20 flex justify-center items-center">
+
+    <div class="flex items-center justify-center py-7">
       <PreOrderButton />
     </div>
   </section>

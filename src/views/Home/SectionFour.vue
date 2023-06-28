@@ -1,116 +1,123 @@
 <template>
   <section>
-    <div class="w-full 4xl:flex 4xl:justify-center bg-theme-100 py-20">
+    <div class="py-20 4xl:flex 4xl:justify-center bg-theme-100">
       <div class="4xl:w-[2000px]">
-        <div class="flex flex-col justify-center items-center">
-          <div id="character" class="font-bold text-5xl">Character</div>
-          <div class="border border-theme-400 mt-5 w-10"></div>
+        <div class="flex flex-col items-center justify-center">
+          <div id="character" class="text-5xl font-bold">Character</div>
+          <div class="w-10 mt-5 border border-theme-400"></div>
         </div>
 
-        <div class="mt-40 flex flex-wrap gap-y-20 gap-x-5 flex-row justify-between px-48">
+        <div class="flex flex-row flex-wrap justify-between px-48 mt-40 gap-y-20 gap-x-5">
           <div>
-            <router-link :to="{ name: 'dante' }" class="cursor-default">
-              <div class="card h-full flex justify-center relative items-end">
+            <router-link :to="{ name: '' }" class="cursor-default">
+              <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img
-                    src="@/assets/images/characters/dante/dante_potrait.webp"
-                    class="h-full w-full object-cover"
-                  />
+                  <img src="@/assets/images/characters/dante/dante_potrait.webp" alt="Dante Portrait"/>
                 </div>
-                <img src="@/assets/images/dmc_title.png" class="title" />
-                <img src="@/assets/images/characters/dante/dante.webp" class="character" />
+                <img
+                  src="@/assets/images/dmc_title.png"
+                  class="w-full transition-transform duration-500 title"
+                  alt="DMC 5 Title"
+                />
+                <img src="@/assets/images/characters/dante/dante.webp" class="character" alt="Dante"/>
               </div>
-              <span class="font-dmc text-2xl">Dante</span>
+              <span class="text-2xl font-dmc">Dante</span>
             </router-link>
           </div>
           <div>
-            <router-link :to="{ name: 'vergil' }" class="cursor-default">
-              <div class="card h-full flex justify-center relative items-end">
+            <router-link :to="{ name: '' }" class="cursor-default">
+              <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img
-                    src="@/assets/images/characters/vergil/vergil_potrait.jpg"
-                    class="h-full w-full object-cover"
-                  />
+                  <img src="@/assets/images/characters/vergil/vergil_potrait.jpg" alt="Vergil Potrait"/>
                 </div>
-                <img src="@/assets/images/dmc_title.png" class="title" />
-                <img src="@/assets/images/characters/vergil/vergil.png" class="character" />
+                <img
+                  src="@/assets/images/dmc_title.png"
+                  class="w-full transition-transform duration-500 title"
+                  alt="DMC 5 Title"
+                />
+                <img src="@/assets/images/characters/vergil/vergil.png" class="character" alt="Vergil"/>
               </div>
-              <span class="font-dmc text-2xl">Vergil</span>
+              <span class="text-2xl font-dmc">Vergil</span>
             </router-link>
           </div>
           <div>
-            <router-link :to="{ name: 'nero' }" class="cursor-default">
-              <div class="card h-full flex justify-center relative items-end">
+            <router-link :to="{ name: '' }" class="cursor-default">
+              <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img
-                    src="@/assets/images/characters/nero/nero_potrait.jpg"
-                    class="h-full w-full object-cover"
-                  />
+                  <img src="@/assets/images/characters/nero/nero_potrait.jpg" alt="Nero Potrait"/>
                 </div>
-                <img src="@/assets/images/dmc_title.png" class="title" />
-                <img src="@/assets/images/characters/nero/nero.png" class="character" />
+                <img
+                  src="@/assets/images/dmc_title.png"
+                  class="w-full transition-transform duration-500 title"
+                  alt="DMC 5 Title"
+                />
+                <img src="@/assets/images/characters/nero/nero.png" class="character" alt="Nero"/>
               </div>
-              <span class="font-dmc text-2xl">Nero</span>
+              <span class="text-2xl font-dmc">Nero</span>
             </router-link>
           </div>
           <div>
-            <router-link :to="{ name: 'v' }" class="cursor-default">
-              <div class="card h-full flex justify-center relative items-end">
+            <router-link :to="{ name: '' }" class="cursor-default">
+              <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img
-                    src="@/assets/images/characters/v/v_potrait.jpg"
-                    class="h-full w-full object-cover"
-                  />
+                  <img src="@/assets/images/characters/v/v_potrait.jpg" alt="V Potrait"/>
                 </div>
-                <img src="@/assets/images/dmc_title.png" class="title" />
-                <img src="@/assets/images/characters/v/v.png" class="character" />
+                <img
+                  src="@/assets/images/dmc_title.png"
+                  class="w-full transition-transform duration-500 title"
+                  alt="DMC 5 Title"
+                />
+                <img src="@/assets/images/characters/v/v.png" class="character" alt="V"/>
               </div>
-              <span class="font-dmc text-2xl">V</span>
+              <span class="text-2xl font-dmc">V</span>
             </router-link>
           </div>
           <div>
-            <router-link :to="{ name: 'trish' }" class="cursor-default">
-              <div class="card h-full flex justify-center relative items-end">
+            <router-link :to="{ name: '' }" class="cursor-default">
+              <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img
-                    src="@/assets/images/characters/trish/trish_potrait.jpg"
-                    class="h-full w-full object-cover"
-                  />
+                  <img src="@/assets/images/characters/trish/trish_potrait.jpg" alt="Trish Potrait"/>
                 </div>
-                <img src="@/assets/images/dmc_title.png" class="title" />
-                <img src="@/assets/images/characters/trish/trish.png" class="character" />
+                <img
+                  src="@/assets/images/dmc_title.png"
+                  class="w-full transition-transform duration-500 title"
+                  alt="DMC 5 Title"
+                />
+                <img src="@/assets/images/characters/trish/trish.png" class="character" alt="Trish"/>
               </div>
-              <span class="font-dmc text-2xl">Trish</span>
+              <span class="text-2xl font-dmc">Trish</span>
             </router-link>
           </div>
           <div>
-            <router-link :to="{ name: 'lady' }" class="cursor-default">
-              <div class="card h-full flex justify-center relative items-end">
+            <router-link :to="{ name: '' }" class="cursor-default">
+              <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img
-                    src="@/assets/images/characters/lady/lady_potrait.jpg"
-                    class="h-full w-full object-cover"
-                  />
+                  <img src="@/assets/images/characters/lady/lady_potrait.jpg" alt="Lady Potrait"/>
                 </div>
-                <img src="@/assets/images/dmc_title.png" class="title" />
-                <img src="@/assets/images/characters/lady/lady.png" class="character" />
+                <img
+                  src="@/assets/images/dmc_title.png"
+                  class="w-full transition-transform duration-500 title"
+                  alt="DMC 5 Title"
+                />
+                <img src="@/assets/images/characters/lady/lady.png" class="character" alt="Lady"/>
               </div>
-              <span class="font-dmc text-2xl">Lady</span>
+              <span class="text-2xl font-dmc">Lady</span>
             </router-link>
           </div>
           <div>
-            <router-link :to="{ name: 'nico' }" class="cursor-default">
-              <div class="card h-full flex justify-center relative items-end">
+            <router-link :to="{ name: '' }" class="cursor-default">
+              <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img
-                    src="@/assets/images/characters/nico/nico_potrait.jpg"
-                    class="h-full w-full object-cover"
-                  />
+                  <img src="@/assets/images/characters/nico/nico_potrait.jpg" alt="Nico Potrait"/>
                 </div>
-                <img src="@/assets/images/dmc_title.png" class="title" />
-                <img src="@/assets/images/characters/nico/nico.png" class="character" />
+                <img
+                  src="@/assets/images/dmc_title.png"
+                  class="w-full transition-transform duration-500 title"
+                  alt="DMC 5 Title"
+                />
+                <img src="@/assets/images/characters/nico/nico.png" class="character" alt="Nico"/>
               </div>
-              <span class="font-dmc text-2xl">Nico</span>
+              <span class="text-2xl font-dmc">Nico</span>
             </router-link>
           </div>
         </div>
@@ -178,10 +185,7 @@
 .card:hover .wrapper::after {
   height: 120px;
 }
-.title {
-  width: 100%;
-  transition: transform 0.5s;
-}
+
 .card:hover .title {
   transform: translate3d(0%, -50px, 100px);
 }

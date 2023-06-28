@@ -7,14 +7,14 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
 
 <template>
   <section>
-    <div class="w-full 4xl:flex 4xl:justify-center bg-theme-100 py-14">
+    <div class="4xl:flex 4xl:justify-center bg-theme-100 py-14">
       <div class="4xl:w-[2000px]">
-        <div class="flex flex-col justify-center items-center">
-          <div id="media" class="font-bold text-5xl">Media</div>
-          <div class="border border-theme-400 mt-5 w-10"></div>
+        <div class="flex flex-col items-center justify-center">
+          <div id="media" class="text-5xl font-bold">Media</div>
+          <div class="w-10 mt-5 border border-theme-400"></div>
         </div>
 
-        <div class="mt-14 flex flex-col gap-y-10 3xl:flex-row justify-between px-48">
+        <div class="flex flex-col justify-between px-48 mt-14 gap-y-10 3xl:flex-row">
           <div>
             <div class="flex justify-center">
               <div class="w-[600px]">
@@ -22,30 +22,30 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
               </div>
             </div>
 
-            <div class="flex flex-col justify-center items-center mt-5">
-              <div class="font-bold text-xl">The Devil May Cry 5 Demo is Live!</div>
-              <div class="border border-theme-400 mt-5 w-10"></div>
+            <div class="flex flex-col items-center justify-center mt-5">
+              <div class="text-xl font-bold">The Devil May Cry 5 Demo is Live!</div>
+              <div class="w-10 mt-5 border border-theme-400"></div>
             </div>
 
-            <div class="flex justify-center gap-x-10 mt-5">
-              <div class="flex group items-center cursor-pointer">
-                <CibPlaystation
-                  class="w-7 h-7 group-hover:text-theme-500 transition-colors ease-in-out duration-200"
-                />
-                <span
-                  class="font-playstation_regular uppercase text-xl ml-2 group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent transition-colors ease-in-out duration-200"
-                  >PS4</span
-                >
-              </div>
-              <div class="flex group items-center cursor-pointer">
+            <div class="flex justify-center mt-5 gap-x-10">
+                <a href="#" target="_blank" class="flex items-center cursor-pointer group">
+                  <CibPlaystation
+                    class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
+                  />
+                  <span
+                    class="ml-2 text-xl transition-colors duration-200 font-playstation_regular group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent"
+                    >PS4</span
+                  >
+                </a>
+              <a href="#" target="_blank" class="flex items-center cursor-pointer group">
                 <CibXbox
-                  class="w-7 h-7 group-hover:text-theme-500 transition-colors ease-in-out duration-200"
+                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
                 />
                 <span
-                  class="font-xbox uppercase text-xl ml-2 group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent transition-colors ease-in-out duration-200"
+                  class="ml-2 text-xl transition-colors duration-200 font-xbox group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent"
                   >XBOX ONE</span
                 >
-              </div>
+              </a>
             </div>
           </div>
           <div>
@@ -58,44 +58,44 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
               </div>
             </div>
 
-            <div class="flex flex-col justify-center items-center mt-5">
-              <div class="font-bold text-xl">The Devil May Cry 5 Collector's Edition</div>
-              <div class="border border-theme-400 mt-5 w-10"></div>
+            <div class="flex flex-col items-center justify-center mt-5">
+              <div class="text-xl font-bold">The Devil May Cry 5 Collector's Edition</div>
+              <div class="w-10 mt-5 border border-theme-400"></div>
             </div>
 
-            <div class="flex justify-center gap-x-10 mt-5">
-              <div class="flex group items-center cursor-pointer">
+            <div class="flex justify-center mt-5 gap-x-10">
+              <a href="#" target="_blank" class="flex items-center cursor-pointer group">
                 <CibPlaystation
-                  class="w-7 h-7 group-hover:text-theme-500 transition-colors ease-in-out duration-200"
+                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
                 />
                 <span
-                  class="font-playstation_regular uppercase text-xl ml-2 group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent transition-colors ease-in-out duration-200"
+                  class="ml-2 text-xl uppercase transition-colors duration-200 font-playstation_regular group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent"
                   >PS4</span
                 >
-              </div>
-              <div class="flex group items-center cursor-pointer">
+              </a>
+              <a href="#" target="_blank" class="flex items-center cursor-pointer group">
                 <CibXbox
-                  class="w-7 h-7 group-hover:text-theme-500 transition-colors ease-in-out duration-200"
+                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
                 />
                 <span
-                  class="font-xbox uppercase text-xl ml-2 group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent transition-colors ease-in-out duration-200"
+                  class="ml-2 text-xl uppercase transition-colors duration-200 font-xbox group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent"
                   >XBOX ONE</span
                 >
-              </div>
-              <div class="flex group items-center cursor-pointer">
+              </a>
+              <a href="#" target="_blank" class="flex items-center cursor-pointer group">
                 <CibSteam
-                  class="w-7 h-7 group-hover:text-theme-500 transition-colors ease-in-out duration-200"
+                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
                 />
                 <span
-                  class="font-steam font-bold tracking-wider uppercase text-xl ml-2 group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent transition-colors ease-in-out duration-200"
+                  class="ml-2 text-xl font-bold tracking-wider uppercase transition-colors duration-200 font-steam group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent"
                   >STEAM</span
                 >
-              </div>
+              </a>
             </div>
           </div>
         </div>
 
-        <div class="mt-14 px-48">
+        <div class="px-48 mt-14">
           <swiper-container
             :loop="true"
             :slides-per-view="3"
@@ -106,40 +106,39 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
             }"
           >
             <swiper-slide>
-              <div class="flex justify-center items-center h-fit">
+              <div class="flex items-center justify-center">
                 <div class="w-[24rem]">
                   <div class="group h-[24rem] relative overflow-hidden">
                     <a
                       href="https://www.youtube.com/watch?v=MWxlbnI9mpU&list=PLc_IbVLk1pmgYBtngbQt2YTbbU39fUNm9&index=5&pp=iAQB"
                       target="_blank"
                       ><img
-                        class="absolute transition-all group-hover:scale-125 object-cover h-full"
+                        class="absolute object-cover transition-all group-hover:scale-125"
                         src="@/assets/images/media/nero.jpg"
                         alt="Nero"
                       />
                       <div
-                        class="absolute w-full text-white text-lg py-5 font-semibold group-hover:tracking-wider text-center bottom-0 bg-black bg-opacity-50"
+                        class="absolute bottom-0 w-full py-5 text-lg font-semibold text-center text-white bg-black bg-opacity-50 group-hover:tracking-wider"
                       >
                         Final Trailer
                       </div></a
                     >
                   </div>
-                  <div class="w-full flex justify-center py-6">
+                  <div class="flex justify-center py-6">
                     <IcOutlineAccessTime />
                     <span class="ml-2">02:50</span>
                   </div>
-                  <div class="border border-theme-400 w-full"></div>
-                  <div class="w-full text-center mt-6">
+                  <div class="w-full border border-theme-400"></div>
+                  <div class="mt-6 text-center">
                     <span>
-                      The Devil May Cry Series boasts over <br class="hidden 3xl:inline-block" />
-                      6.5 million sales worldwide.
+                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
                     </span>
                   </div>
                 </div>
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="flex justify-center items-center h-fit">
+              <div class="flex items-center justify-center h-fit">
                 <div class="w-[24rem]">
                   <div class="group h-[24rem] relative overflow-hidden">
                     <a
@@ -147,33 +146,32 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                       target="_blank"
                     >
                       <img
-                        class="absolute object-cover h-full transition-all group-hover:scale-125"
+                        class="absolute object-cover transition-all group-hover:scale-125"
                         src="@/assets/images/media/nero_closeup.jpg"
                         alt="Nero Close-Up"
                       />
                       <div
-                        class="absolute w-full text-white py-5 font-semibold group-hover:tracking-wider text-center bottom-0 bg-black bg-opacity-50"
+                        class="absolute bottom-0 w-full py-5 text-lg font-semibold text-center text-white bg-black bg-opacity-50 group-hover:tracking-wider"
                       >
                         Nero Combat Video
                       </div></a
                     >
                   </div>
-                  <div class="w-full flex justify-center py-6">
+                  <div class="flex justify-center py-6">
                     <IcOutlineAccessTime />
                     <span class="ml-2">00:48</span>
                   </div>
-                  <div class="border border-theme-400 w-full"></div>
-                  <div class="w-full text-center mt-6">
+                  <div class="w-full border border-theme-400"></div>
+                  <div class="mt-6 text-center">
                     <span>
-                      The Devil May Cry Series boasts over <br class="hidden 3xl:inline-block" />
-                      6.5 million sales worldwide.
+                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
                     </span>
                   </div>
                 </div>
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="flex justify-center items-center h-fit">
+              <div class="flex items-center justify-center h-fit">
                 <div class="w-[24rem]">
                   <div class="group h-[24rem] relative overflow-hidden">
                     <a
@@ -181,33 +179,32 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                       target="_blank"
                     >
                       <img
-                        class="absolute object-cover h-full transition-all group-hover:scale-125"
+                        class="absolute object-cover transition-all group-hover:scale-125"
                         src="@/assets/images/media/dante_closeup.png"
                         alt="Dante Close-Up"
                       />
                       <div
-                        class="absolute w-full text-white py-5 font-semibold group-hover:tracking-wider text-center bottom-0 bg-black bg-opacity-50"
+                        class="absolute bottom-0 w-full py-5 text-lg font-semibold text-center text-white bg-black bg-opacity-50 group-hover:tracking-wider"
                       >
                         Dante Combat Video
                       </div></a
                     >
                   </div>
-                  <div class="w-full flex justify-center py-6">
+                  <div class="flex justify-center py-6">
                     <IcOutlineAccessTime />
                     <span class="ml-2">00:48</span>
                   </div>
-                  <div class="border border-theme-400 w-full"></div>
-                  <div class="w-full text-center mt-6">
+                  <div class="w-full border border-theme-400"></div>
+                  <div class="mt-6 text-center">
                     <span>
-                      The Devil May Cry Series boasts over <br class="hidden 3xl:inline-block" />
-                      6.5 million sales worldwide.
+                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
                     </span>
                   </div>
                 </div>
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="flex justify-center items-center h-fit">
+              <div class="flex items-center justify-center h-fit">
                 <div class="w-[24rem]">
                   <div class="group h-[24rem] relative overflow-hidden">
                     <a
@@ -215,33 +212,32 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                       target="_blank"
                     >
                       <img
-                        class="absolute object-cover h-full transition-all group-hover:scale-125"
+                        class="absolute object-cover transition-all group-hover:scale-125"
                         src="@/assets/images/media/v_closeup.png"
                         alt="V Close-Up"
                       />
                       <div
-                        class="absolute w-full text-white py-5 font-semibold group-hover:tracking-wider text-center bottom-0 bg-black bg-opacity-50"
+                        class="absolute bottom-0 w-full py-5 text-lg font-semibold text-center text-white bg-black bg-opacity-50 group-hover:tracking-wider"
                       >
                         V Combat Video
                       </div></a
                     >
                   </div>
-                  <div class="w-full flex justify-center py-6">
+                  <div class="flex justify-center py-6">
                     <IcOutlineAccessTime />
                     <span class="ml-2">00:50</span>
                   </div>
-                  <div class="border border-theme-400 w-full"></div>
-                  <div class="w-full text-center mt-6">
+                  <div class="w-full border border-theme-400"></div>
+                  <div class="mt-6 text-center">
                     <span>
-                      The Devil May Cry Series boasts over <br class="hidden 3xl:inline-block" />
-                      6.5 million sales worldwide.
+                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
                     </span>
                   </div>
                 </div>
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="flex justify-center items-center h-fit">
+              <div class="flex items-center justify-center h-fit">
                 <div class="w-[24rem]">
                   <div class="group h-[24rem] relative overflow-hidden">
                     <a
@@ -249,33 +245,32 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                       target="_blank"
                     >
                       <img
-                        class="absolute object-cover h-full transition-all group-hover:scale-125"
+                        class="absolute object-cover transition-all group-hover:scale-125"
                         src="@/assets/images/media/vergil_potrait.jpg"
                         alt="Vergil Potrait"
                       />
                       <div
-                        class="absolute w-full text-white py-5 font-semibold group-hover:tracking-wider text-center bottom-0 bg-black bg-opacity-50"
+                        class="absolute bottom-0 w-full py-5 text-lg font-semibold text-center text-white bg-black bg-opacity-50 group-hover:tracking-wider"
                       >
                         Vergil DLC VIDEO
                       </div></a
                     >
                   </div>
-                  <div class="w-full flex justify-center py-6">
+                  <div class="flex justify-center py-6">
                     <IcOutlineAccessTime />
                     <span class="ml-2">01:57</span>
                   </div>
-                  <div class="border border-theme-400 w-full"></div>
-                  <div class="w-full text-center mt-6">
+                  <div class="w-full border border-theme-400"></div>
+                  <div class="mt-6 text-center">
                     <span>
-                      The Devil May Cry Series boasts over <br class="hidden 3xl:inline-block" />
-                      6.5 million sales worldwide.
+                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
                     </span>
                   </div>
                 </div>
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="flex justify-center items-center h-fit">
+              <div class="flex items-center justify-center h-fit">
                 <div class="w-[24rem]">
                   <div class="group h-[24rem] relative overflow-hidden">
                     <a
@@ -283,33 +278,32 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                       target="_blank"
                     >
                       <img
-                        class="absolute object-cover h-full transition-all group-hover:scale-125"
+                        class="absolute object-cover transition-all group-hover:scale-125"
                         src="@/assets/images/media/bloody_palace.jpg"
                         alt="Bloody Palace"
                       />
                       <div
-                        class="absolute w-full text-white py-5 font-semibold group-hover:tracking-wider text-center bottom-0 bg-black bg-opacity-50"
+                        class="absolute bottom-0 w-full py-5 text-lg font-semibold text-center text-white bg-black bg-opacity-50 group-hover:tracking-wider"
                       >
                         Bloody Palace Trailer
                       </div></a
                     >
                   </div>
-                  <div class="w-full flex justify-center py-6">
+                  <div class="flex justify-center py-6">
                     <IcOutlineAccessTime />
                     <span class="ml-2">01:06</span>
                   </div>
-                  <div class="border border-theme-400 w-full"></div>
-                  <div class="w-full text-center mt-6">
+                  <div class="w-full border border-theme-400"></div>
+                  <div class="mt-6 text-center">
                     <span>
-                      The Devil May Cry Series boasts over <br class="hidden 3xl:inline-block" />
-                      6.5 million sales worldwide.
+                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
                     </span>
                   </div>
                 </div>
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="flex justify-center items-center h-fit">
+              <div class="flex items-center justify-center h-fit">
                 <div class="w-[24rem]">
                   <div class="group h-[24rem] relative overflow-hidden">
                     <a
@@ -317,26 +311,25 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                       target="_blank"
                     >
                       <img
-                        class="absolute object-cover h-full transition-all group-hover:scale-125"
+                        class="absolute object-cover transition-all group-hover:scale-125"
                         src="@/assets/images/media/dmc_cover.jpg"
                         alt="Devil May Cry 5 Cover Photo"
                       />
                       <div
-                        class="absolute w-full text-white py-5 font-semibold group-hover:tracking-wider text-center bottom-0 bg-black bg-opacity-50"
+                        class="absolute bottom-0 w-full py-5 text-lg font-semibold text-center text-white bg-black bg-opacity-50 group-hover:tracking-wider"
                       >
                         Announcement Trailer
                       </div></a
                     >
                   </div>
-                  <div class="w-full flex justify-center py-6">
+                  <div class="flex justify-center py-6">
                     <IcOutlineAccessTime />
                     <span class="ml-2">02:40</span>
                   </div>
-                  <div class="border border-theme-400 w-full"></div>
-                  <div class="w-full text-center mt-6">
+                  <div class="w-full border border-theme-400"></div>
+                  <div class="mt-6 text-center">
                     <span>
-                      The Devil May Cry Series boasts over <br class="hidden 3xl:inline-block" />
-                      6.5 million sales worldwide.
+                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
                     </span>
                   </div>
                 </div>
@@ -345,9 +338,9 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
           </swiper-container>
         </div>
 
-        <div class="flex flex-col justify-center items-center mt-14">
-          <div id="about" class="font-bold text-5xl">About</div>
-          <div class="border border-theme-400 mt-5 w-10"></div>
+        <div class="flex flex-col items-center justify-center mt-14">
+          <div id="about" class="text-5xl font-bold">About</div>
+          <div class="w-10 mt-5 border border-theme-400"></div>
         </div>
       </div>
     </div>
