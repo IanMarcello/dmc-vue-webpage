@@ -50,7 +50,7 @@ module.exports = {
       }
     },
     screens: {
-      '3xl': '1600px',
+      '3xl': '1760px',
       '4xl': '2000px'
     }
   },
