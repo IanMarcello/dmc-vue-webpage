@@ -1,7 +1,8 @@
 /* Disable select for span, anchor and image tags */
 span,
 a,
-img, button {
+img,
+button {
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -57,25 +58,25 @@ img, button {
 @font-face {
   font-family: 'DMC5Font';
   src: url('fonts/Custom_Fonts/DMC5/DMC5Font.woff') format('woff');
-       font-weight: 100;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'PS_Regular';
   src: url('fonts/Custom_Fonts/Playstation/PS_Regular.woff') format('woff');
-       font-weight: 100;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'Steam';
   src: url('fonts/Custom_Fonts/Steam/Steam.woff') format('woff');
-       font-weight: 100;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
@@ -89,102 +90,96 @@ img, button {
 @font-face {
   font-family: 'Steam_Bold';
   src: url('fonts/Custom_Fonts/Steam/Steam_Bold.woff') format('woff');
-       font-weight: 700;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'Steam_Black';
   src: url('fonts/Custom_Fonts/Steam/Steam_Black.woff') format('woff');
-       font-weight: 900;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'X360';
   src: url('fonts/Custom_Fonts/XBOX/X360.woff') format('woff');
-       font-weight: 100;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
 }
 
 /* Montserrat Alternates Font */
 /* @font-face {
   font-family: 'MontserratAlternates-Thin';
   src: url('fonts/Montserrat_Alternates/MontserratAlternates-Thin.woff') format('woff');
-       font-weight: 100;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'MontserratAlternates-ExtraLight';
   src: url('fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.woff') format('woff');
-       font-weight: 200;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
 }
-
 
 @font-face {
   font-family: 'MontserratAlternates-Light';
   src: url('fonts/Montserrat_Alternates/MontserratAlternates-Light.woff') format('woff');
-       font-weight: 300;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
 }
-
 
 @font-face {
   font-family: 'MontserratAlternates-Regular';
   src: url('fonts/Montserrat_Alternates/MontserratAlternates-Regular.woff') format('woff');
-       font-weight: 400;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
 }
-
 
 @font-face {
   font-family: 'MontserratAlternates-Medium';
   src: url('fonts/Montserrat_Alternates/MontserratAlternates-Medium.woff') format('woff');
-       font-weight: 500;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'MontserratAlternates-SemiBold';
   src: url('fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.woff') format('woff');
-       font-weight: 600;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
 }
-
 
 @font-face {
   font-family: 'MontserratAlternates-Bold';
   src: url('fonts/Montserrat_Alternates/MontserratAlternates-Bold.woff') format('woff');
-       font-weight: 700;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
 }
-
 
 @font-face {
   font-family: 'MontserratAlternates-ExtraBold';
   src: url('fonts/Montserrat_Alternates/MontserratAlternates-ExtraBold.woff') format('woff');
-       font-weight: 800;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
 }
-
 
 @font-face {
   font-family: 'MontserratAlternates-Black';
   src: url('fonts/Montserrat_Alternates/MontserratAlternates-Black.woff') format('woff');
-       font-weight: 900;
-       font-display: swap;
-       font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
 } */
