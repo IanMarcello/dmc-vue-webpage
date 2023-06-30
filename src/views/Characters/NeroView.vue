@@ -130,7 +130,7 @@ const toggleStore = useToggleStore()
         </div>
         <div class="w-full md:w-1/2">
           <img
-            src="@/assets/images/content/nero.webp"
+            src="@/assets/images/characters/nero/nero_heroicon.webp"
             class="block mx-auto md:mr-auto md:ml-0"
             alt="Nero"
           />

@@ -119,7 +119,7 @@ const toggleStore = useToggleStore()
       <div class="flex flex-wrap items-center mb-5">
         <div class="w-full md:w-1/2 md:px-8">
           <img
-            src="@/assets/images/content/dante.webp"
+            src="@/assets/images/characters/dante/dante_heroicon.webp"
             class="block mx-auto md:mr-0 md:ml-auto"
             alt="Dante"
           />
