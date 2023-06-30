@@ -1,12 +1,12 @@
-import { defineStore } from "pinia";
+import { defineStore } from 'pinia'
 
-export const useToggleStore = defineStore("toggle", {
+export const useToggleStore = defineStore('toggle', {
   state: () => ({
-    openList: true,
+    openList: true
   }),
   actions: {
     toggleList() {
-      this.openList = !this.openList;
-    },
-  },
-});
+      this.openList = !this.openList
+    }
+  }
+})
