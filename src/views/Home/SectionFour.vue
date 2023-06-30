@@ -12,14 +12,21 @@
             <router-link :to="{ name: '' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img src="@/assets/images/characters/dante/dante_potrait.webp" alt="Dante Portrait"/>
+                  <img
+                    src="@/assets/images/characters/dante/dante_potrait.webp"
+                    alt="Dante Portrait"
+                  />
                 </div>
                 <img
-                  src="@/assets/images/dmc_title.png"
+                  src="@/assets/images/dmc_title.webp"
                   class="w-full transition-transform duration-500 title"
                   alt="DMC 5 Title"
                 />
-                <img src="@/assets/images/characters/dante/dante.webp" class="character" alt="Dante"/>
+                <img
+                  src="@/assets/images/characters/dante/dante.webp"
+                  class="character"
+                  alt="Dante"
+                />
               </div>
               <span class="text-2xl font-dmc">Dante</span>
             </router-link>
@@ -28,14 +35,21 @@
             <router-link :to="{ name: '' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img src="@/assets/images/characters/vergil/vergil_potrait.jpg" alt="Vergil Potrait"/>
+                  <img
+                    src="@/assets/images/characters/vergil/vergil_potrait.webp"
+                    alt="Vergil Potrait"
+                  />
                 </div>
                 <img
-                  src="@/assets/images/dmc_title.png"
+                  src="@/assets/images/dmc_title.webp"
                   class="w-full transition-transform duration-500 title"
                   alt="DMC 5 Title"
                 />
-                <img src="@/assets/images/characters/vergil/vergil.png" class="character" alt="Vergil"/>
+                <img
+                  src="@/assets/images/characters/vergil/vergil.webp"
+                  class="character"
+                  alt="Vergil"
+                />
               </div>
               <span class="text-2xl font-dmc">Vergil</span>
             </router-link>
@@ -44,14 +58,14 @@
             <router-link :to="{ name: '' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img src="@/assets/images/characters/nero/nero_potrait.jpg" alt="Nero Potrait"/>
+                  <img src="@/assets/images/characters/nero/nero_potrait.webp" alt="Nero Potrait" />
                 </div>
                 <img
-                  src="@/assets/images/dmc_title.png"
+                  src="@/assets/images/dmc_title.webp"
                   class="w-full transition-transform duration-500 title"
                   alt="DMC 5 Title"
                 />
-                <img src="@/assets/images/characters/nero/nero.png" class="character" alt="Nero"/>
+                <img src="@/assets/images/characters/nero/nero.webp" class="character" alt="Nero" />
               </div>
               <span class="text-2xl font-dmc">Nero</span>
             </router-link>
@@ -60,14 +74,14 @@
             <router-link :to="{ name: '' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img src="@/assets/images/characters/v/v_potrait.jpg" alt="V Potrait"/>
+                  <img src="@/assets/images/characters/v/v_potrait.webp" alt="V Potrait" />
                 </div>
                 <img
-                  src="@/assets/images/dmc_title.png"
+                  src="@/assets/images/dmc_title.webp"
                   class="w-full transition-transform duration-500 title"
                   alt="DMC 5 Title"
                 />
-                <img src="@/assets/images/characters/v/v.png" class="character" alt="V"/>
+                <img src="@/assets/images/characters/v/v.webp" class="character" alt="V" />
               </div>
               <span class="text-2xl font-dmc">V</span>
             </router-link>
@@ -76,14 +90,21 @@
             <router-link :to="{ name: '' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img src="@/assets/images/characters/trish/trish_potrait.jpg" alt="Trish Potrait"/>
+                  <img
+                    src="@/assets/images/characters/trish/trish_potrait.webp"
+                    alt="Trish Potrait"
+                  />
                 </div>
                 <img
-                  src="@/assets/images/dmc_title.png"
+                  src="@/assets/images/dmc_title.webp"
                   class="w-full transition-transform duration-500 title"
                   alt="DMC 5 Title"
                 />
-                <img src="@/assets/images/characters/trish/trish.png" class="character" alt="Trish"/>
+                <img
+                  src="@/assets/images/characters/trish/trish.webp"
+                  class="character"
+                  alt="Trish"
+                />
               </div>
               <span class="text-2xl font-dmc">Trish</span>
             </router-link>
@@ -92,14 +113,14 @@
             <router-link :to="{ name: '' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img src="@/assets/images/characters/lady/lady_potrait.jpg" alt="Lady Potrait"/>
+                  <img src="@/assets/images/characters/lady/lady_potrait.webp" alt="Lady Potrait" />
                 </div>
                 <img
-                  src="@/assets/images/dmc_title.png"
+                  src="@/assets/images/dmc_title.webp"
                   class="w-full transition-transform duration-500 title"
                   alt="DMC 5 Title"
                 />
-                <img src="@/assets/images/characters/lady/lady.png" class="character" alt="Lady"/>
+                <img src="@/assets/images/characters/lady/lady.webp" class="character" alt="Lady" />
               </div>
               <span class="text-2xl font-dmc">Lady</span>
             </router-link>
@@ -108,14 +129,14 @@
             <router-link :to="{ name: '' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
-                  <img src="@/assets/images/characters/nico/nico_potrait.jpg" alt="Nico Potrait"/>
+                  <img src="@/assets/images/characters/nico/nico_potrait.webp" alt="Nico Potrait" />
                 </div>
                 <img
-                  src="@/assets/images/dmc_title.png"
+                  src="@/assets/images/dmc_title.webp"
                   class="w-full transition-transform duration-500 title"
                   alt="DMC 5 Title"
                 />
-                <img src="@/assets/images/characters/nico/nico.png" class="character" alt="Nico"/>
+                <img src="@/assets/images/characters/nico/nico.webp" class="character" alt="Nico" />
               </div>
               <span class="text-2xl font-dmc">Nico</span>
             </router-link>

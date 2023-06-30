@@ -25,132 +25,132 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
           >
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_1.jpg" alt="Nero #1" />
+                <img src="@/assets/images/gallery/image_1.webp" alt="Nero #1" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_2.jpg" alt="Nero #2" />
+                <img src="@/assets/images/gallery/image_2.webp" alt="Nero #2" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_3.jpg" alt="Nero #3" />
+                <img src="@/assets/images/gallery/image_3.webp" alt="Nero #3" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_4.jpg" alt="Nero #4" />
+                <img src="@/assets/images/gallery/image_4.webp" alt="Nero #4" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_5.jpg" alt="Nero #5" />
+                <img src="@/assets/images/gallery/image_5.webp" alt="Nero #5" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_6.jpg" alt="Urizen" />
+                <img src="@/assets/images/gallery/image_6.webp" alt="Urizen" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_7.png" alt="Dante #1" />
+                <img src="@/assets/images/gallery/image_7.webp" alt="Dante #1" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_8.png" alt="Nero #6" />
+                <img src="@/assets/images/gallery/image_8.webp" alt="Nero #6" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_9.png" alt="Dante #2" />
+                <img src="@/assets/images/gallery/image_9.webp" alt="Dante #2" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_10.png" alt="Trish #1" />
+                <img src="@/assets/images/gallery/image_10.webp" alt="Trish #1" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_11.png" alt="Lady #1" />
+                <img src="@/assets/images/gallery/image_11.webp" alt="Lady #1" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_12.png" alt="Dante #3" />
+                <img src="@/assets/images/gallery/image_12.webp" alt="Dante #3" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_13.jpg" alt="Nero #7" />
+                <img src="@/assets/images/gallery/image_13.webp" alt="Nero #7" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_14.jpg" alt="Nico's Van" />
+                <img src="@/assets/images/gallery/image_14.webp" alt="Nico's Van" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_15.png" alt="Dante #4" />
+                <img src="@/assets/images/gallery/image_15.webp" alt="Dante #4" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_16.jpg" alt="V #1" />
+                <img src="@/assets/images/gallery/image_16.webp" alt="V #1" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_17.png" alt="SDT Dante #1" />
+                <img src="@/assets/images/gallery/image_17.webp" alt="SDT Dante #1" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_18.jpg" alt="Nero & V" />
+                <img src="@/assets/images/gallery/image_18.webp" alt="Nero & V" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_19.jpg" alt="V #2" />
+                <img src="@/assets/images/gallery/image_19.webp" alt="V #2" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_20.png" alt="Dante & Nero" />
+                <img src="@/assets/images/gallery/image_20.webp" alt="Dante & Nero" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_21.png" alt="Dante, Vergil & SDT Nero" />
+                <img src="@/assets/images/gallery/image_21.webp" alt="Dante, Vergil & SDT Nero" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_22.png" alt="Dante & Vergil #1" />
+                <img src="@/assets/images/gallery/image_22.webp" alt="Dante & Vergil #1" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_23.jpg" alt="Nero #8" />
+                <img src="@/assets/images/gallery/image_23.webp" alt="Nero #8" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_24.jpg" alt="Nero #9" />
+                <img src="@/assets/images/gallery/image_24.webp" alt="Nero #9" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_25.jpg" alt="Dante & Vergil #2" />
+                <img src="@/assets/images/gallery/image_25.webp" alt="Dante & Vergil #2" />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div class="flex items-center justify-center">
-                <img src="@/assets/images/gallery/image_26.jpg" alt="Vergil #1" />
+                <img src="@/assets/images/gallery/image_26.webp" alt="Vergil #1" />
               </div>
             </swiper-slide>
           </swiper-container>
@@ -163,4 +163,3 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
     </div>
   </section>
 </template>
-

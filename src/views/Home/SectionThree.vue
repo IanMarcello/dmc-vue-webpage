@@ -4,7 +4,7 @@
       <div class="relative 4xl:w-[2000px] py-20">
         <div>
           <img
-            src="@/assets/images/arms/cavaliere.png"
+            src="@/assets/images/arms/cavaliere.webp"
             class="absolute hidden 3xl:inline-block -top-8 right-32"
             alt="Cavaliere"
           />

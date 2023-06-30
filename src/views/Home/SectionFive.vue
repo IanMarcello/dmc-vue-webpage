@@ -40,7 +40,7 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
           <div class="w-64">
             <div class="relative w-[350px]">
               <img
-                src="@/assets/images/characters/nero/nero_cutout.png"
+                src="@/assets/images/characters/nero/nero_cutout.webp"
                 class="absolute -left-7 top-[-9.1rem]"
                 alt="Nero"
               />
@@ -65,7 +65,7 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
           <div class="w-64">
             <div class="relative w-[275px]">
               <img
-                src="@/assets/images/characters/v/v_cutout.png"
+                src="@/assets/images/characters/v/v_cutout.webp"
                 class="absolute -left-2 top-[-3.1rem]"
                 alt="V"
               />

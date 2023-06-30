@@ -18,7 +18,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
           <div>
             <div class="flex justify-center">
               <div class="w-[600px]">
-                <img src="@/assets/images/media/dmc_demo.jpg" alt="Devil May Cry 5 Demo" />
+                <img src="@/assets/images/media/dmc_demo.webp" alt="Devil May Cry 5 Demo" />
               </div>
             </div>
 
@@ -28,15 +28,15 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
             </div>
 
             <div class="flex justify-center mt-5 gap-x-10">
-                <a href="#" target="_blank" class="flex items-center cursor-pointer group">
-                  <CibPlaystation
-                    class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
-                  />
-                  <span
-                    class="ml-2 text-xl transition-colors duration-200 font-playstation_regular group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent"
-                    >PS4</span
-                  >
-                </a>
+              <a href="#" target="_blank" class="flex items-center cursor-pointer group">
+                <CibPlaystation
+                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
+                />
+                <span
+                  class="ml-2 text-xl transition-colors duration-200 font-playstation_regular group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent"
+                  >PS4</span
+                >
+              </a>
               <a href="#" target="_blank" class="flex items-center cursor-pointer group">
                 <CibXbox
                   class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
@@ -52,7 +52,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
             <div class="flex justify-center">
               <div class="w-[600px]">
                 <img
-                  src="@/assets/images/media/dmc_collector.jpg"
+                  src="@/assets/images/media/dmc_collector.webp"
                   alt="Devil May Cry 5 Collector's Edition"
                 />
               </div>
@@ -114,7 +114,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                       target="_blank"
                       ><img
                         class="absolute object-cover transition-all group-hover:scale-125"
-                        src="@/assets/images/media/nero.jpg"
+                        src="@/assets/images/media/nero.webp"
                         alt="Nero"
                       />
                       <div
@@ -130,9 +130,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                   </div>
                   <div class="w-full border border-theme-400"></div>
                   <div class="mt-6 text-center">
-                    <span>
-                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
-                    </span>
+                    <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
                 </div>
               </div>
@@ -147,7 +145,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                     >
                       <img
                         class="absolute object-cover transition-all group-hover:scale-125"
-                        src="@/assets/images/media/nero_closeup.jpg"
+                        src="@/assets/images/media/nero_closeup.webp"
                         alt="Nero Close-Up"
                       />
                       <div
@@ -163,9 +161,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                   </div>
                   <div class="w-full border border-theme-400"></div>
                   <div class="mt-6 text-center">
-                    <span>
-                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
-                    </span>
+                    <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
                 </div>
               </div>
@@ -179,8 +175,8 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                       target="_blank"
                     >
                       <img
-                        class="absolute object-cover transition-all group-hover:scale-125"
-                        src="@/assets/images/media/dante_closeup.png"
+                        class="absolute object-cover transition-all scale-100 group-hover:scale-125"
+                        src="@/assets/images/media/dante_closeup.webp"
                         alt="Dante Close-Up"
                       />
                       <div
@@ -196,9 +192,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                   </div>
                   <div class="w-full border border-theme-400"></div>
                   <div class="mt-6 text-center">
-                    <span>
-                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
-                    </span>
+                    <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
                 </div>
               </div>
@@ -213,7 +207,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                     >
                       <img
                         class="absolute object-cover transition-all group-hover:scale-125"
-                        src="@/assets/images/media/v_closeup.png"
+                        src="@/assets/images/media/v_closeup.webp"
                         alt="V Close-Up"
                       />
                       <div
@@ -229,9 +223,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                   </div>
                   <div class="w-full border border-theme-400"></div>
                   <div class="mt-6 text-center">
-                    <span>
-                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
-                    </span>
+                    <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
                 </div>
               </div>
@@ -246,7 +238,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                     >
                       <img
                         class="absolute object-cover transition-all group-hover:scale-125"
-                        src="@/assets/images/media/vergil_potrait.jpg"
+                        src="@/assets/images/media/vergil_potrait.webp"
                         alt="Vergil Potrait"
                       />
                       <div
@@ -262,9 +254,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                   </div>
                   <div class="w-full border border-theme-400"></div>
                   <div class="mt-6 text-center">
-                    <span>
-                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
-                    </span>
+                    <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
                 </div>
               </div>
@@ -279,7 +269,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                     >
                       <img
                         class="absolute object-cover transition-all group-hover:scale-125"
-                        src="@/assets/images/media/bloody_palace.jpg"
+                        src="@/assets/images/media/bloody_palace.webp"
                         alt="Bloody Palace"
                       />
                       <div
@@ -295,9 +285,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                   </div>
                   <div class="w-full border border-theme-400"></div>
                   <div class="mt-6 text-center">
-                    <span>
-                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
-                    </span>
+                    <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
                 </div>
               </div>
@@ -312,7 +300,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                     >
                       <img
                         class="absolute object-cover transition-all group-hover:scale-125"
-                        src="@/assets/images/media/dmc_cover.jpg"
+                        src="@/assets/images/media/dmc_cover.webp"
                         alt="Devil May Cry 5 Cover Photo"
                       />
                       <div
@@ -328,9 +316,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                   </div>
                   <div class="w-full border border-theme-400"></div>
                   <div class="mt-6 text-center">
-                    <span>
-                      The Devil May Cry Series boasts over 6.5 million sales worldwide.
-                    </span>
+                    <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
                 </div>
               </div>

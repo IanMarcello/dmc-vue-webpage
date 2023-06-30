@@ -13,7 +13,7 @@ import CibSteam from '~icons/cib/steam'
     <div>
       <div class="relative">
         <div>
-          <img class="opacity-10" src="@/assets/images/background.jpg" alt="Nero" />
+          <img class="opacity-10" src="@/assets/images/background.webp" alt="Nero" />
         </div>
         <div class="absolute top-0 flex flex-col items-center justify-center w-full h-full">
           <div>
@@ -28,9 +28,7 @@ import CibSteam from '~icons/cib/steam'
             />
           </div>
 
-          <div
-            class="relative flex flex-row justify-center text-base font-bold text-center mt-28"
-          >
+          <div class="relative flex flex-row justify-center text-base font-bold text-center mt-28">
             <a
               href="#"
               target="_blank"
@@ -101,7 +99,7 @@ import CibSteam from '~icons/cib/steam'
         </div>
         <div class="flex flex-col items-center py-5 bg-theme-900">
           <div class="flex mt-5 w-60">
-            <img src="@/assets/images/capcom_logo.png" alt="Capcom Logo" />
+            <img src="@/assets/images/capcom_logo.webp" alt="Capcom Logo" />
           </div>
 
           <div class="flex w-full px-[26rem] mt-5">
