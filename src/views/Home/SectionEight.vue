@@ -46,26 +46,26 @@ import CibSteam from '~icons/cib/steam'
           </div>
 
           <div class="flex flex-row mt-10 gap-x-5">
-            <div
+            <a href="#" target="_blank"
               class="p-5 transition-colors border rounded-full cursor-pointer group hover:bg-theme-300"
             >
               <BasilTwitterSolid class="transition-transform w-7 h-7 group-hover:scale-125" />
-            </div>
-            <div
+            </a>
+            <a href="#" target="_blank"
               class="p-5 transition-colors border rounded-full cursor-pointer group hover:bg-theme-300"
             >
               <BasilFacebookSolid class="transition-transform w-7 h-7 group-hover:scale-125" />
-            </div>
-            <div
+            </a>
+            <a href="#" target="_blank"
               class="p-5 transition-colors border rounded-full cursor-pointer group hover:bg-theme-300"
             >
               <BasilInstagramSolid class="transition-transform w-7 h-7 group-hover:scale-125" />
-            </div>
-            <div
+            </a>
+            <a href="#" target="_blank"
               class="p-5 transition-colors border rounded-full cursor-pointer group hover:bg-theme-300"
             >
               <BasilYoutubeSolid class="transition-transform w-7 h-7 group-hover:scale-125" />
-            </div>
+            </a>
           </div>
         </div>
       </div>
