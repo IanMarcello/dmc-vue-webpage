@@ -7,11 +7,11 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
 
 <template>
   <section>
-    <div class="4xl:flex 4xl:justify-center bg-theme-100 py-14">
+    <div class="4xl:flex 4xl:justify-center bg-theme-500 py-14">
       <div class="4xl:w-[2000px]">
         <div class="flex flex-col items-center justify-center">
           <div id="media" class="text-5xl font-bold">Media</div>
-          <div class="w-10 mt-5 border border-theme-400"></div>
+          <div class="w-10 mt-5 border border-theme-300"></div>
         </div>
 
         <div class="flex flex-col justify-between px-48 mt-14 gap-y-10 3xl:flex-row">
@@ -24,25 +24,23 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
 
             <div class="flex flex-col items-center justify-center mt-5">
               <div class="text-xl font-bold">The Devil May Cry 5 Demo is Live!</div>
-              <div class="w-10 mt-5 border border-theme-400"></div>
+              <div class="w-10 mt-5 border border-theme-300"></div>
             </div>
 
             <div class="flex justify-center mt-5 gap-x-10">
               <a href="#" target="_blank" class="flex items-center cursor-pointer group">
                 <CibPlaystation
-                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
+                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-50"
                 />
                 <span
-                  class="ml-2 text-xl transition-colors duration-200 font-playstation_regular group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent"
+                  class="ml-2 text-xl transition-colors duration-200 font-playstation_regular group-hover:bg-gradient-to-r group-hover:from-theme-50 group-hover:to-theme-100 group-hover:bg-clip-text group-hover:text-transparent"
                   >PS4</span
                 >
               </a>
               <a href="#" target="_blank" class="flex items-center cursor-pointer group">
-                <CibXbox
-                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
-                />
+                <CibXbox class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-50" />
                 <span
-                  class="ml-2 text-xl transition-colors duration-200 font-xbox group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent"
+                  class="ml-2 text-xl transition-colors duration-200 font-xbox group-hover:bg-gradient-to-r group-hover:from-theme-50 group-hover:to-theme-100 group-hover:bg-clip-text group-hover:text-transparent"
                   >XBOX ONE</span
                 >
               </a>
@@ -60,34 +58,32 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
 
             <div class="flex flex-col items-center justify-center mt-5">
               <div class="text-xl font-bold">The Devil May Cry 5 Collector's Edition</div>
-              <div class="w-10 mt-5 border border-theme-400"></div>
+              <div class="w-10 mt-5 border border-theme-300"></div>
             </div>
 
             <div class="flex justify-center mt-5 gap-x-10">
               <a href="#" target="_blank" class="flex items-center cursor-pointer group">
                 <CibPlaystation
-                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
+                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-50"
                 />
                 <span
-                  class="ml-2 text-xl uppercase transition-colors duration-200 font-playstation_regular group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent"
+                  class="ml-2 text-xl uppercase transition-colors duration-200 font-playstation_regular group-hover:bg-gradient-to-r group-hover:from-theme-50 group-hover:to-theme-100 group-hover:bg-clip-text group-hover:text-transparent"
                   >PS4</span
                 >
               </a>
               <a href="#" target="_blank" class="flex items-center cursor-pointer group">
-                <CibXbox
-                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
-                />
+                <CibXbox class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-50" />
                 <span
-                  class="ml-2 text-xl uppercase transition-colors duration-200 font-xbox group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent"
+                  class="ml-2 text-xl uppercase transition-colors duration-200 font-xbox group-hover:bg-gradient-to-r group-hover:from-theme-50 group-hover:to-theme-100 group-hover:bg-clip-text group-hover:text-transparent"
                   >XBOX ONE</span
                 >
               </a>
               <a href="#" target="_blank" class="flex items-center cursor-pointer group">
                 <CibSteam
-                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-500"
+                  class="transition-colors duration-200 w-7 h-7 group-hover:text-theme-50"
                 />
                 <span
-                  class="ml-2 text-xl font-bold tracking-wider uppercase transition-colors duration-200 font-steam group-hover:bg-gradient-to-r group-hover:from-theme-500 group-hover:to-theme-600 group-hover:bg-clip-text group-hover:text-transparent"
+                  class="ml-2 text-xl font-bold tracking-wider uppercase transition-colors duration-200 font-steam group-hover:bg-gradient-to-r group-hover:from-theme-50 group-hover:to-theme-100 group-hover:bg-clip-text group-hover:text-transparent"
                   >STEAM</span
                 >
               </a>
@@ -128,7 +124,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                     <IcOutlineAccessTime />
                     <span class="ml-2">02:50</span>
                   </div>
-                  <div class="w-full border border-theme-400"></div>
+                  <div class="w-full border border-theme-300"></div>
                   <div class="mt-6 text-center">
                     <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
@@ -159,7 +155,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                     <IcOutlineAccessTime />
                     <span class="ml-2">00:48</span>
                   </div>
-                  <div class="w-full border border-theme-400"></div>
+                  <div class="w-full border border-theme-300"></div>
                   <div class="mt-6 text-center">
                     <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
@@ -190,7 +186,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                     <IcOutlineAccessTime />
                     <span class="ml-2">00:48</span>
                   </div>
-                  <div class="w-full border border-theme-400"></div>
+                  <div class="w-full border border-theme-300"></div>
                   <div class="mt-6 text-center">
                     <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
@@ -221,7 +217,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                     <IcOutlineAccessTime />
                     <span class="ml-2">00:50</span>
                   </div>
-                  <div class="w-full border border-theme-400"></div>
+                  <div class="w-full border border-theme-300"></div>
                   <div class="mt-6 text-center">
                     <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
@@ -244,7 +240,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                       <div
                         class="absolute bottom-0 w-full py-5 text-lg font-semibold text-center text-white bg-black bg-opacity-50 group-hover:tracking-wider"
                       >
-                        Vergil DLC VIDEO
+                        Vergil DLC Video
                       </div></a
                     >
                   </div>
@@ -252,7 +248,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                     <IcOutlineAccessTime />
                     <span class="ml-2">01:57</span>
                   </div>
-                  <div class="w-full border border-theme-400"></div>
+                  <div class="w-full border border-theme-300"></div>
                   <div class="mt-6 text-center">
                     <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
@@ -283,7 +279,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                     <IcOutlineAccessTime />
                     <span class="ml-2">01:06</span>
                   </div>
-                  <div class="w-full border border-theme-400"></div>
+                  <div class="w-full border border-theme-300"></div>
                   <div class="mt-6 text-center">
                     <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
@@ -314,7 +310,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
                     <IcOutlineAccessTime />
                     <span class="ml-2">02:40</span>
                   </div>
-                  <div class="w-full border border-theme-400"></div>
+                  <div class="w-full border border-theme-300"></div>
                   <div class="mt-6 text-center">
                     <span> The Devil May Cry Series boasts over 6.5 million sales worldwide. </span>
                   </div>
@@ -326,7 +322,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
 
         <div class="flex flex-col items-center justify-center mt-14">
           <div id="about" class="text-5xl font-bold">About</div>
-          <div class="w-10 mt-5 border border-theme-400"></div>
+          <div class="w-10 mt-5 border border-theme-300"></div>
         </div>
       </div>
     </div>

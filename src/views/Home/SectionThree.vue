@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="4xl:flex 4xl:justify-center bg-theme-800">
+    <div class="4xl:flex 4xl:justify-center bg-theme-900">
       <div class="relative 4xl:w-[2000px] py-20">
         <div>
           <img
@@ -28,7 +28,7 @@
             >
               <a href="#" target="_blank">
                 <div
-                  class="w-56 py-3 transition-all border cursor-pointer hover:bg-theme-300 hover:tracking-widest"
+                  class="w-56 py-3 transition-all border cursor-pointer hover:bg-theme-400 hover:tracking-widest"
                 >
                   <span>MORE</span>
                 </div></a

@@ -1,15 +1,15 @@
 <template>
   <section>
-    <div class="py-20 4xl:flex 4xl:justify-center bg-theme-100">
+    <div class="py-20 4xl:flex 4xl:justify-center bg-theme-500">
       <div class="4xl:w-[2000px]">
         <div class="flex flex-col items-center justify-center">
           <div id="character" class="text-5xl font-bold">Character</div>
-          <div class="w-10 mt-5 border border-theme-400"></div>
+          <div class="w-10 mt-5 border border-theme-300"></div>
         </div>
 
         <div class="flex flex-row flex-wrap justify-between px-48 mt-40 gap-y-20 gap-x-5">
           <div>
-            <router-link :to="{ name: '' }" class="cursor-default">
+            <router-link :to="{ name: 'dante' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
                   <img
@@ -32,7 +32,7 @@
             </router-link>
           </div>
           <div>
-            <router-link :to="{ name: '' }" class="cursor-default">
+            <router-link :to="{ name: 'vergil' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
                   <img
@@ -55,7 +55,7 @@
             </router-link>
           </div>
           <div>
-            <router-link :to="{ name: '' }" class="cursor-default">
+            <router-link :to="{ name: 'nero' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
                   <img src="@/assets/images/characters/nero/nero_potrait.webp" alt="Nero Potrait" />
@@ -71,7 +71,7 @@
             </router-link>
           </div>
           <div>
-            <router-link :to="{ name: '' }" class="cursor-default">
+            <router-link :to="{ name: 'v' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
                   <img src="@/assets/images/characters/v/v_potrait.webp" alt="V Potrait" />
@@ -87,7 +87,7 @@
             </router-link>
           </div>
           <div>
-            <router-link :to="{ name: '' }" class="cursor-default">
+            <router-link :to="{ name: 'trish' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
                   <img
@@ -110,7 +110,7 @@
             </router-link>
           </div>
           <div>
-            <router-link :to="{ name: '' }" class="cursor-default">
+            <router-link :to="{ name: 'lady' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
                   <img src="@/assets/images/characters/lady/lady_potrait.webp" alt="Lady Potrait" />
@@ -126,7 +126,7 @@
             </router-link>
           </div>
           <div>
-            <router-link :to="{ name: '' }" class="cursor-default">
+            <router-link :to="{ name: 'nico' }" class="cursor-default">
               <div class="relative flex items-end justify-center card">
                 <div class="wrapper absolute w-full transition-all duration-500 -z-[1]">
                   <img src="@/assets/images/characters/nico/nico_potrait.webp" alt="Nico Potrait" />

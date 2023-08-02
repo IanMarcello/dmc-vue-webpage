@@ -6,7 +6,7 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
 
 <template>
   <section>
-    <div class="4xl:flex 4xl:justify-center bg-theme-100">
+    <div class="4xl:flex 4xl:justify-center bg-theme-500">
       <div class="relative 4xl:w-[2000px] flex flex-col h-full px-52">
         <div>
           <img
@@ -36,14 +36,14 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
               >
                 <a href="#">
                   <div
-                    class="w-56 py-3 transition-all ease-in border cursor-pointer hover:bg-theme-300 hover:tracking-widest"
+                    class="w-56 py-3 transition-all ease-in border cursor-pointer hover:bg-theme-400 hover:tracking-widest"
                   >
                     <span>PRE-ORDER</span>
                   </div></a
                 >
                 <a href="https://www.youtube.com/watch?v=gFj8qt9HiZg" target="_blank">
                   <div
-                    class="w-56 py-3 transition-all ease-in border cursor-pointer hover:bg-theme-300 hover:tracking-widest"
+                    class="w-56 py-3 transition-all ease-in border cursor-pointer hover:bg-theme-400 hover:tracking-widest"
                   >
                     <span>OFFICIAL TRAILER</span>
                   </div></a

@@ -1,6 +1,6 @@
 <template>
   <div class="relative flex top-[83px] left-10 w-fit gap-44">
-    <div class="flex items-end flex-none bg-theme-100">
+    <div class="flex items-end flex-none bg-theme-500">
       <div>
         <img
           src="@/assets/images/nav/nav.webp"
@@ -9,7 +9,7 @@
         />
       </div>
     </div>
-    <div class="flex items-center bg-theme-100">
+    <div class="flex items-center bg-theme-500">
       <div>
         <router-link
           :to="{ name: '' }"

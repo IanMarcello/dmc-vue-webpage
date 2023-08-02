@@ -32,7 +32,7 @@ import CibSteam from '~icons/cib/steam'
             <a
               href="#"
               target="_blank"
-              class="w-56 py-4 transition-all ease-in border cursor-pointer hover:bg-theme-300 hover:tracking-widest"
+              class="w-56 py-4 transition-all ease-in border cursor-pointer hover:bg-theme-400 hover:tracking-widest"
             >
               <span>SUBMIT</span>
             </a>
@@ -47,22 +47,22 @@ import CibSteam from '~icons/cib/steam'
 
           <div class="flex flex-row mt-10 gap-x-5">
             <a href="#" target="_blank"
-              class="p-5 transition-colors border rounded-full cursor-pointer group hover:bg-theme-300"
+              class="p-5 transition-colors border rounded-full cursor-pointer group hover:bg-theme-400"
             >
               <BasilTwitterSolid class="transition-transform w-7 h-7 group-hover:scale-125" />
             </a>
             <a href="#" target="_blank"
-              class="p-5 transition-colors border rounded-full cursor-pointer group hover:bg-theme-300"
+              class="p-5 transition-colors border rounded-full cursor-pointer group hover:bg-theme-400"
             >
               <BasilFacebookSolid class="transition-transform w-7 h-7 group-hover:scale-125" />
             </a>
             <a href="#" target="_blank"
-              class="p-5 transition-colors border rounded-full cursor-pointer group hover:bg-theme-300"
+              class="p-5 transition-colors border rounded-full cursor-pointer group hover:bg-theme-400"
             >
               <BasilInstagramSolid class="transition-transform w-7 h-7 group-hover:scale-125" />
             </a>
             <a href="#" target="_blank"
-              class="p-5 transition-colors border rounded-full cursor-pointer group hover:bg-theme-300"
+              class="p-5 transition-colors border rounded-full cursor-pointer group hover:bg-theme-400"
             >
               <BasilYoutubeSolid class="transition-transform w-7 h-7 group-hover:scale-125" />
             </a>
@@ -70,7 +70,7 @@ import CibSteam from '~icons/cib/steam'
         </div>
       </div>
       <div>
-        <div class="flex flex-col items-center h-full py-10 bg-theme-100">
+        <div class="flex flex-col items-center h-full py-10 bg-theme-500">
           <div class="flex justify-center mt-5 gap-x-10">
             <div class="flex items-center">
               <CibPlaystation class="w-7 h-7" />
@@ -97,7 +97,7 @@ import CibSteam from '~icons/cib/steam'
             </div>
           </div>
         </div>
-        <div class="flex flex-col items-center py-5 bg-theme-900">
+        <div class="flex flex-col items-center py-5 bg-theme-800">
           <div class="flex mt-5 w-60">
             <img src="@/assets/images/capcom_logo.webp" alt="Capcom Logo" />
           </div>

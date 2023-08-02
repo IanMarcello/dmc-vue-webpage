@@ -4,11 +4,11 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
 
 <template>
   <section>
-    <div class="pb-28 4xl:flex 4xl:justify-center bg-theme-100">
+    <div class="pb-28 4xl:flex 4xl:justify-center bg-theme-500">
       <div class="4xl:w-[2000px]">
         <div class="flex flex-col items-center justify-center">
           <div id="gallery" class="text-5xl font-bold">Gallery</div>
-          <div class="w-10 mt-5 border border-theme-400"></div>
+          <div class="w-10 mt-5 border border-theme-300"></div>
         </div>
 
         <div class="mt-14 px-44">
