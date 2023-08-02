@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line no-undef
 module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
@@ -22,30 +23,17 @@ module.exports = {
         // 'montserratalternates-black': ['MontserratAlternates-Black', 'sans-serif']
       },
       colors: {
-        dark: {
-          50: '#0081c6',
-          100: '#0073b0',
-          200: '#00649a',
-          300: '#005684',
-          400: '#00486e',
-          450: '#003049',
-          500: '#003958',
-          600: '#002b42',
-          700: '#001d2c',
-          800: '#000e16',
-          900: '#000000'
-        },
         theme: {
-          50: '#101217',
-          100: '#16191f',
-          200: '#cd3232',
-          300: '#282a34',
-          400: '#2d3035',
-          500: '#449ca2',
-          600: '#e63f33',
-          700: '#111216',
-          800: '#111317',
-          900: '#101316',
+          50: 'var(--theme-colors-50)',
+          100: 'var(--theme-colors-100)',
+          200: 'var(--theme-colors-200)',
+          300: 'var(--theme-colors-300)',
+          400: 'var(--theme-colors-400)',
+          500: 'var(--theme-colors-500)',
+          600: 'var(--theme-colors-600)',
+          700: 'var(--theme-colors-700)',
+          800: 'var(--theme-colors-800)',
+          900: 'var(--theme-colors-900)',
         }
       }
     },

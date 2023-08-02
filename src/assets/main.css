@@ -4,6 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --theme-colors-50: #449ca2;
+  --theme-colors-100: #e63f33;
+  --theme-colors-200: #cd3232;
+  --theme-colors-300: #2d3035;
+  --theme-colors-400: #282a34;
+  --theme-colors-500: #16191f;
+  --theme-colors-600: #111216;
+  --theme-colors-700: #101217;
+  --theme-colors-800: #101316;
+  --theme-colors-900: #111317;
+}
+
 @layer base {
   body {
     font-family: Montserrat Alternates, sans-serif;
