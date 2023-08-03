@@ -33,8 +33,11 @@ module.exports = {
           600: 'var(--theme-colors-600)',
           700: 'var(--theme-colors-700)',
           800: 'var(--theme-colors-800)',
-          900: 'var(--theme-colors-900)',
+          900: 'var(--theme-colors-900)'
         }
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(circle, var(--tw-gradient-stops))'
       }
     },
     screens: {
