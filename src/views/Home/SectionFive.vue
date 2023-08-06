@@ -17,7 +17,7 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
               <a
                 href="#"
                 target="_blank"
-                class="w-56 py-3 transition-all ease-in border hover:bg-theme-400 hover:tracking-widest"
+                class="w-full py-3 transition-all ease-in border hover:bg-theme-400 hover:tracking-widest"
               >
                 <span>MORE</span>
               </a>
@@ -27,10 +27,10 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
               <span>Rack up enough "Stylish" ratings to get your hands on some Gold orbs.</span>
             </div>
 
-            <div class="p-5 transition-transform ease-in bg-theme-600 h-96 peer-hover:scale-110">
-              <div
-                class="w-full h-full border bg-gradient-radial from-slate-200 via-slate-300 to-slate-900"
-              ></div>
+            <div
+              class="p-5 transition-transform [&_div]:peer-hover:bg-gradient-radial [&_div]:peer-hover:from-slate-200 [&_div]:peer-hover:via-slate-300 [&_div]:peer-hover:to-slate-900 ease-in bg-theme-600 h-96 peer-hover:scale-110"
+            >
+              <div class="w-full h-full border"></div>
             </div>
 
             <div class="relative w-[300px] transition-transform ease-in peer-hover:scale-105">
@@ -47,7 +47,7 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
               <a
                 href="#"
                 target="_blank"
-                class="w-56 py-3 transition-all ease-in border hover:bg-theme-400 hover:tracking-widest"
+                class="w-full py-3 transition-all ease-in border hover:bg-theme-400 hover:tracking-widest"
               >
                 <span>MORE</span>
               </a>
@@ -57,10 +57,10 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
               <span>Such a sight might very well be another player connected online!</span>
             </div>
 
-            <div class="p-5 transition-transform ease-in bg-theme-600 h-96 peer-hover:scale-110">
-              <div
-                class="w-full h-full border bg-gradient-radial from-slate-200 via-slate-300 to-slate-900"
-              ></div>
+            <div
+              class="p-5 transition-transform [&_div]:peer-hover:bg-gradient-radial [&_div]:peer-hover:from-slate-200 [&_div]:peer-hover:via-slate-300 [&_div]:peer-hover:to-slate-900 ease-in bg-theme-600 h-96 peer-hover:scale-110"
+            >
+              <div class="w-full h-full border"></div>
             </div>
 
             <div class="relative w-[350px] transition-transform ease-in peer-hover:scale-105">
@@ -77,7 +77,7 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
               <a
                 href="#"
                 target="_blank"
-                class="w-56 py-3 transition-all ease-in border group-hover:bg-theme-400 group-hover:tracking-widest"
+                class="w-full py-3 transition-all ease-in border group-hover:bg-theme-400 group-hover:tracking-widest"
               >
                 <span>MORE</span>
               </a>
@@ -87,10 +87,10 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
               <span>Some missions may even have you and other players fight side-by-side.</span>
             </div>
 
-            <div class="p-5 transition-transform ease-in bg-theme-600 h-96 peer-hover:scale-110">
-              <div
-                class="w-full h-full transition-all duration-200 ease-in border bg-gradient-radial from-slate-200 via-slate-300 to-slate-900"
-              ></div>
+            <div
+              class="p-5 transition-transform [&_div]:peer-hover:bg-gradient-radial [&_div]:peer-hover:from-slate-200 [&_div]:peer-hover:via-slate-300 [&_div]:peer-hover:to-slate-900 ease-in bg-theme-600 h-96 peer-hover:scale-110"
+            >
+              <div class="w-full h-full border"></div>
             </div>
 
             <div class="relative w-[275px] transition-transform ease-in peer-hover:scale-105">
@@ -109,17 +109,3 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
     </div>
   </section>
 </template>
-
-<style>
-.backgroundGradient {
-  background: hsla(231, 6%, 76%, 1);
-
-  background: radial-gradient(circle, hsla(231, 6%, 76%, 1) 54%, hsla(0, 0%, 3%, 1) 99%);
-
-  background: -moz-radial-gradient(circle, hsla(231, 6%, 76%, 1) 54%, hsla(0, 0%, 3%, 1) 99%);
-
-  background: -webkit-radial-gradient(circle, hsla(231, 6%, 76%, 1) 54%, hsla(0, 0%, 3%, 1) 99%);
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BEBFC5", endColorstr="#080808", GradientType=1 );
-}
-</style>
