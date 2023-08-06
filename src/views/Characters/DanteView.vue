@@ -9,7 +9,7 @@ const toggleStore = useToggleStore()
 
 <template>
   <main>
-    <section class="flex flex-col py-5 mt-5 ml-5 sm:flex-row">
+    <section class="flex flex-row justify-between p-5 mt-5 ml-5 sm:flex-row">
       <div class="flex flex-col">
         <div class="px-2">
           <div>
@@ -107,32 +107,19 @@ const toggleStore = useToggleStore()
         </div>
       </div>
 
-      <div class="w-80">
-        <div>
-          <span>Dante</span>
-          <div
-            class="py-0.5"
-            style="
-              background-image: linear-gradient(
-                to right,
-                #101217,
-                #0c203f,
-                #002d6b,
-                #003997,
-                #0042c4,
-                #0042c4,
-                #0042c4,
-                #0042c4,
-                #003997,
-                #002d6b,
-                #0c203f,
-                #101217
-              );
-            "
-          ></div>
+      <div class="flex flex-col w-72 border-x-2">
+        <div class="text-center">
+          <h4 class="text-base glitch-transform">Dante</h4>
+          <div class="py-0.5 bg-gradient-to-r from-[#101217] via-theme-100 to-[#101217]"></div>
         </div>
 
-        <img src="@/assets/images/characters/dante/dante_heroicon.webp" class="w-14" alt="Dante" />
+        <div class="flex justify-center w-full h-full">
+          <img
+            class="w-40"
+            src="@/assets/images/characters/dante/dante_heroicon.webp"
+            alt="Dante"
+          />
+        </div>
       </div>
     </section>
 
