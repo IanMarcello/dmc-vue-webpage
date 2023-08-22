@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="4xl:flex 4xl:justify-center bg-theme-900">
-      <div class="relative 4xl:w-[2000px] py-20">
+      <div class="relative 4xl:w-500 py-20">
         <div>
           <img
             src="@/assets/images/arms/cavaliere.webp"

@@ -8,7 +8,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
 <template>
   <section>
     <div class="4xl:flex 4xl:justify-center bg-theme-500 py-14">
-      <div class="4xl:w-[2000px]">
+      <div class="4xl:w-500">
         <div class="flex flex-col items-center justify-center">
           <div id="media" class="text-5xl font-bold">Media</div>
           <div class="w-10 mt-5 border border-theme-300"></div>
@@ -17,7 +17,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
         <div class="flex flex-col justify-between px-48 mt-14 gap-y-10 3xl:flex-row">
           <div>
             <div class="flex justify-center">
-              <div class="w-[600px]">
+              <div class="w-150">
                 <img src="@/assets/images/media/dmc_demo.webp" alt="Devil May Cry 5 Demo" />
               </div>
             </div>
@@ -48,7 +48,7 @@ import IcOutlineAccessTime from '~icons/ic/outline-access-time'
           </div>
           <div>
             <div class="flex justify-center">
-              <div class="w-[600px]">
+              <div class="w-150">
                 <img
                   src="@/assets/images/media/dmc_collector.webp"
                   alt="Devil May Cry 5 Collector's Edition"

@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="py-20 4xl:flex 4xl:justify-center bg-theme-500">
-      <div class="4xl:w-[2000px]">
+      <div class="4xl:w-500">
         <div class="flex flex-col items-center justify-center">
           <div id="character" class="text-5xl font-bold">Character</div>
           <div class="w-10 mt-5 border border-theme-300"></div>
@@ -149,7 +149,7 @@
 
 <style>
 :root {
-  --card-height: 300px;
+  --card-height: 18.75rem;
   --card-width: calc(var(--card-height) / 1.5);
 }
 
@@ -157,7 +157,7 @@
   width: var(--card-width);
   height: var(--card-height);
   padding: 0 36px;
-  perspective: 250000px;
+  perspective: 9000px;
 }
 
 .card:hover .wrapper {
@@ -177,6 +177,7 @@
   position: absolute;
   left: 0;
 }
+
 .wrapper::before {
   top: 0;
   height: 100%;
@@ -187,6 +188,7 @@
     rgba(12, 13, 19) 97%
   );
 }
+
 .wrapper::after {
   bottom: 0;
   opacity: 1;

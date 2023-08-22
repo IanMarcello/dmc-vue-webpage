@@ -5,7 +5,7 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
 <template>
   <section>
     <div class="py-20 4xl:flex 4xl:justify-center bg-theme-500">
-      <div class="4xl:w-[2000px]">
+      <div class="4xl:w-500">
         <div class="flex flex-col items-center justify-center">
           <div id="system" class="text-5xl font-bold">System</div>
           <div class="w-10 mt-5 border border-theme-300"></div>
@@ -33,7 +33,7 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
               <div class="w-full h-full border"></div>
             </div>
 
-            <div class="relative w-[300px] transition-transform ease-in peer-hover:scale-105">
+            <div class="relative transition-transform ease-in w-75 peer-hover:scale-105">
               <img
                 src="@/assets/images/characters/dante/dante_cutout.webp"
                 class="absolute -left-2 top-[-3.2rem]"
@@ -63,7 +63,7 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
               <div class="w-full h-full border"></div>
             </div>
 
-            <div class="relative w-[350px] transition-transform ease-in peer-hover:scale-105">
+            <div class="relative w-87.5 transition-transform ease-in peer-hover:scale-105">
               <img
                 src="@/assets/images/characters/nero/nero_cutout.webp"
                 class="absolute -left-7 top-[-9.1rem]"
@@ -93,7 +93,7 @@ import PreOrderButton from '@/components/PreOrderButton.vue'
               <div class="w-full h-full border"></div>
             </div>
 
-            <div class="relative w-[275px] transition-transform ease-in peer-hover:scale-105">
+            <div class="relative w-68.75 transition-transform ease-in peer-hover:scale-105">
               <img
                 src="@/assets/images/characters/v/v_cutout.webp"
                 class="absolute -left-2 top-[-3.1rem]"
