@@ -1,5 +1,6 @@
-/* Disable select for span, anchor and image tags */
+/* Disable select for span, button, headings, anchor and image tags */
 span,
+h4,
 a,
 img,
 button {

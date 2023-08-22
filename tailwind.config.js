@@ -37,7 +37,15 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(circle, var(--tw-gradient-stops))'
+        'gradient-radial': 'radial-gradient(circle, var(--tw-gradient-stops))',
+        'gradient-linear': 'linear-gradient(to top, var(--tw-gradient-stops))'
+      },
+      width: {
+        '68.75': '17.1875rem',
+        '75': '18.75rem',
+        '87.5': '21.875rem',
+        '150': '37.5rem',
+        '500': '125rem'
       }
     },
     screens: {
